@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+    <defs>
+      <radialGradient id="hGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#bdc3c7" stop-opacity="0.35"/><stop offset="100%" stop-color="#bdc3c7" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="hCard" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#7f8c8d"/><stop offset="50%" stop-color="#95a5a6"/><stop offset="100%" stop-color="#34495e"/>
+      </linearGradient>
+      <linearGradient id="ribbonH" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#95a5a6"/><stop offset="100%" stop-color="#7f8c8d"/>
+      </linearGradient>
+    </defs>
+    <circle cx="100" cy="115" r="75" fill="url(#hGlow)"/>
+    <path d="M70 15 C85 50 88 85 92 95 M130 15 C115 50 112 85 108 95" stroke="url(#ribbonH)" stroke-width="12" stroke-linecap="round"/>
+    <rect x="88" y="90" width="24" height="12" rx="3" fill="#7f8c8d"/>
+    <rect x="58" y="98" width="84" height="88" rx="10" fill="url(#hCard)" stroke="#ecf0f1" stroke-width="3"/>
+    <text x="100" y="152" font-family="'Barlow Condensed', sans-serif" font-weight="900" font-size="22" fill="#ffffff" text-anchor="middle" letter-spacing="1">HABITUÉ</text>
+    <polygon points="100,110 103,118 111,118 105,123 107,131 100,126 93,131 95,123 89,118 97,118" fill="#ecf0f1"/>
+  </svg>

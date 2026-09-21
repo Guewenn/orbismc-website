@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+    <defs>
+      <radialGradient id="vGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#2ecc71" stop-opacity="0.4"/>
+        <stop offset="100%" stop-color="#2ecc71" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="vCard" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#27ae60"/><stop offset="50%" stop-color="#2ecc71"/><stop offset="100%" stop-color="#1abc9c"/>
+      </linearGradient>
+      <linearGradient id="ribbon" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#e74c3c"/><stop offset="100%" stop-color="#c0392b"/>
+      </linearGradient>
+    </defs>
+    <circle cx="100" cy="115" r="75" fill="url(#vGlow)"/>
+    <!-- Ribbon / Lanyard -->
+    <path d="M70 15 C85 50 88 85 92 95 M130 15 C115 50 112 85 108 95" stroke="url(#ribbon)" stroke-width="12" stroke-linecap="round"/>
+    <rect x="88" y="90" width="24" height="12" rx="3" fill="#bdc3c7"/>
+    <!-- Card Body -->
+    <rect x="58" y="98" width="84" height="88" rx="10" fill="url(#vCard)" stroke="#a3e4d7" stroke-width="3"/>
+    <!-- Text VIP -->
+    <text x="100" y="152" font-family="'Barlow Condensed', sans-serif" font-weight="900" font-size="34" fill="#ffffff" text-anchor="middle" letter-spacing="2">VIP</text>
+    <polygon points="100,112 104,122 114,122 106,128 109,138 100,132 91,138 94,128 86,122 96,122" fill="#f1c40f"/>
+  </svg>

@@ -1,0 +1,29 @@
+{
+  "port": 8080,
+  "urlPublique": "http://localhost:8080",
+  "nomServeur": "OrbisMC",
+  "adresseJeu": "localhost",
+  "versionJeu": "26.2",
+  "discord": "",
+  "minecraft": {
+    "hote": "127.0.0.1",
+    "port": 25565
+  },
+  "base": {
+    "hote": "127.0.0.1",
+    "port": 3306,
+    "base": "serv",
+    "utilisateur": "serv_web",
+    "motDePasse": "A_REMPLIR"
+  },
+  "secret": "A_REMPLIR_48_caracteres_aleatoires",
+  "tebex": {
+    "jetonBoutique": ""
+  },
+  "votes": [
+    {
+      "nom": "serveur-prive.net",
+      "url": "https://serveur-prive.net/minecraft/VOTRE-SERVEUR/vote"
+    }
+  ]
+}

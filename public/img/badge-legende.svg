@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+    <defs>
+      <radialGradient id="lGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#f39c12" stop-opacity="0.5"/>
+        <stop offset="100%" stop-color="#e74c3c" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="lCard" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#f39c12"/><stop offset="50%" stop-color="#e67e22"/><stop offset="100%" stop-color="#c0392b"/>
+      </linearGradient>
+      <linearGradient id="goldRib" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffeaa7"/><stop offset="100%" stop-color="#fdcb6e"/>
+      </linearGradient>
+    </defs>
+    <circle cx="100" cy="115" r="85" fill="url(#lGlow)"/>
+    <!-- Wings behind -->
+    <path d="M45 110 C30 90 40 70 65 78 C55 88 55 102 60 115 Z" fill="#f1c40f"/>
+    <path d="M155 110 C170 90 160 70 135 78 C145 88 145 102 140 115 Z" fill="#f1c40f"/>
+    <path d="M70 15 C85 50 88 85 92 95 M130 15 C115 50 112 85 108 95" stroke="url(#goldRib)" stroke-width="12" stroke-linecap="round"/>
+    <rect x="88" y="90" width="24" height="12" rx="3" fill="#e74c3c"/>
+    <rect x="58" y="98" width="84" height="88" rx="10" fill="url(#lCard)" stroke="#ffeaa7" stroke-width="3"/>
+    <text x="100" y="152" font-family="'Barlow Condensed', sans-serif" font-weight="900" font-size="24" fill="#ffffff" text-anchor="middle" letter-spacing="1">LÉGENDE</text>
+    <!-- Crown -->
+    <polygon points="90,122 93,112 97,118 100,108 103,118 107,112 110,122" fill="#ffeaa7"/>
+  </svg>

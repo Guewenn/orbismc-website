@@ -1,0 +1,81 @@
+{
+  "blocs": {
+    "gold_block": {
+      "crane": false
+    },
+    "diamond_block": {
+      "crane": false
+    },
+    "emerald_block": {
+      "crane": false
+    },
+    "netherite_block": {
+      "crane": false
+    },
+    "sea_lantern": {
+      "crane": false
+    },
+    "sponge": {
+      "crane": false
+    },
+    "cactus": {
+      "crane": false
+    },
+    "tnt": {
+      "crane": false
+    },
+    "carved_pumpkin": {
+      "crane": false
+    },
+    "flowering_azalea": {
+      "crane": false
+    },
+    "bee_nest": {
+      "crane": false
+    },
+    "dispenser": {
+      "crane": false
+    },
+    "creeper_head": {
+      "crane": true
+    },
+    "piglin_head": {
+      "crane": true
+    },
+    "dragon_head": {
+      "crane": true
+    },
+    "wither_skeleton_skull": {
+      "crane": true
+    }
+  },
+  "particules": {
+    "NOTE": {
+      "mouvement": "flotte"
+    },
+    "HEART": {
+      "mouvement": "flotte"
+    },
+    "SNOWFLAKE": {
+      "mouvement": "flotte"
+    },
+    "FLAME": {
+      "mouvement": "flotte"
+    },
+    "END_ROD": {
+      "mouvement": "flotte"
+    },
+    "CHERRY_LEAVES": {
+      "mouvement": "flotte"
+    },
+    "SOUL": {
+      "mouvement": "flotte"
+    },
+    "ENCHANTED_HIT": {
+      "mouvement": "flotte"
+    },
+    "FIREWORK": {
+      "mouvement": "flotte"
+    }
+  }
+}

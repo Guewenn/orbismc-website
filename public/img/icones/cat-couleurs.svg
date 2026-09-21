@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="palWood" cx="40%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="40%" stop-color="#fde68a"/>
+      <stop offset="80%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </radialGradient>
+    <filter id="palShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#2a0f3a" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#palShadow)">
+    <path d="M22 66 C 18 36, 50 18, 76 22 C 104 26, 116 52, 106 82 C 98 106, 72 114, 52 104 C 44 100, 36 102, 32 108 C 26 116, 16 112, 18 98 C 20 86, 24 80, 22 66 Z" fill="url(#palWood)"/>
+    <circle cx="40" cy="94" r="8" fill="#1e1b4b" opacity="0.2"/>
+    <circle cx="42" cy="38" r="9" fill="#ef4444"/>
+    <circle cx="64" cy="32" r="9" fill="#f59e0b"/>
+    <circle cx="86" cy="40" r="9" fill="#10b981"/>
+    <circle cx="96" cy="62" r="9" fill="#0ea5e9"/>
+    <circle cx="86" cy="84" r="9" fill="#a855f7"/>
+    <circle cx="64" cy="92" r="9" fill="#ff4fa0"/>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="scrollGold" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#fff8db"/>
+      <stop offset="45%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </radialGradient>
+    <filter id="titreShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#2a0f3a" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <g filter="url(#titreShadow)">
+    <polygon points="50,60 50,116 64,104 78,116 78,60" fill="#7c4dff"/>
+    <polygon points="54,60 54,106 64,98 74,106 74,60" fill="#ff4fa0"/>
+    <circle cx="64" cy="52" r="36" fill="url(#scrollGold)"/>
+    <circle cx="64" cy="52" r="28" fill="#78350f"/>
+    <circle cx="64" cy="52" r="25" fill="url(#scrollGold)"/>
+    <polygon points="64,34 68,46 80,48 70,56 74,68 64,60 54,68 58,56 48,48 60,46" fill="#ffffff"/>
+  </g>
+</svg>

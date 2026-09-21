@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+    <defs>
+      <radialGradient id="glow3" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.5"/>
+        <stop offset="100%" stop-color="#00d2ff" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="chestWood" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#c87d32"/><stop offset="50%" stop-color="#96521a"/><stop offset="100%" stop-color="#5c2e0b"/>
+      </linearGradient>
+      <linearGradient id="chestGold" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffe682"/><stop offset="50%" stop-color="#d4af37"/><stop offset="100%" stop-color="#8a6714"/>
+      </linearGradient>
+    </defs>
+    <circle cx="100" cy="110" r="85" fill="url(#glow3)"/>
+    <!-- Lower Chest Base -->
+    <rect x="40" y="115" width="120" height="55" rx="6" fill="url(#chestWood)"/>
+    <rect x="36" y="112" width="128" height="8" rx="2" fill="url(#chestGold)"/>
+    <rect x="40" y="115" width="12" height="55" fill="url(#chestGold)"/>
+    <rect x="148" y="115" width="12" height="55" fill="url(#chestGold)"/>
+    <rect x="94" y="115" width="12" height="55" fill="url(#chestGold)"/>
+    <!-- Lock -->
+    <rect x="92" y="114" width="16" height="18" rx="3" fill="#ffeaa7"/>
+    <circle cx="100" cy="122" r="3" fill="#2d3436"/>
+    <!-- Open Lid Raised Up -->
+    <path d="M38 90 L100 45 L162 90 L155 105 L100 65 L45 105 Z" fill="url(#chestWood)"/>
+    <path d="M36 88 L100 43 L164 88 L158 96 L100 53 L42 96 Z" fill="url(#chestGold)"/>
+    <!-- Giant Crystal Heap Inside -->
+    <polygon points="55,115 75,85 105,95 95,120" fill="#00b4d8"/>
+    <polygon points="75,85 88,72 105,95" fill="#caf0f8"/>
+    <polygon points="90,115 110,75 140,85 130,120" fill="#70f3ff"/>
+    <polygon points="110,75 125,60 140,85" fill="#ffffff"/>
+    <polygon points="125,115 145,88 160,98 150,122" fill="#0096c7"/>
+    <!-- Floating Sparkles -->
+    <polygon points="60,65 62,58 64,65 71,67 64,69 62,76 60,69 53,67" fill="#ffffff"/>
+    <polygon points="145,50 147,42 149,50 157,52 149,54 147,62 145,54 137,52" fill="#ffffff"/>
+  </svg>

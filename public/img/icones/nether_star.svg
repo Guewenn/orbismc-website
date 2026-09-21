@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.7"/>
+      <stop offset="50%" stop-color="#9333ea" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#581c87" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="starFacet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#f5d0fe"/>
+      <stop offset="70%" stop-color="#d946ef"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="starShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="7" flood-color="#a855f7" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <circle cx="64" cy="64" r="58" fill="url(#starGlow)"/>
+  <g filter="url(#starShadow)">
+    <polygon points="64,12 73,50 112,50 80,72 92,110 64,86 36,110 48,72 16,50 55,50" fill="url(#starFacet)"/>
+    <polygon points="64,36 74,54 92,64 74,74 64,92 54,74 36,64 54,54" fill="#ffffff"/>
+    <circle cx="64" cy="64" r="7" fill="#fdf4ff"/>
+    <circle cx="64" cy="64" r="3" fill="#a855f7"/>
+  </g>
+</svg>

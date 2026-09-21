@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+    <defs>
+      <radialGradient id="eGlow" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#3498db" stop-opacity="0.45"/>
+        <stop offset="100%" stop-color="#3498db" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="eCard" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#2980b9"/><stop offset="50%" stop-color="#3498db"/><stop offset="100%" stop-color="#00cec9"/>
+      </linearGradient>
+      <linearGradient id="ribbonE" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#9b59b6"/><stop offset="100%" stop-color="#8e44ad"/>
+      </linearGradient>
+    </defs>
+    <circle cx="100" cy="115" r="75" fill="url(#eGlow)"/>
+    <path d="M70 15 C85 50 88 85 92 95 M130 15 C115 50 112 85 108 95" stroke="url(#ribbonE)" stroke-width="12" stroke-linecap="round"/>
+    <rect x="88" y="90" width="24" height="12" rx="3" fill="#f1c40f"/>
+    <rect x="58" y="98" width="84" height="88" rx="10" fill="url(#eCard)" stroke="#dff9fb" stroke-width="3"/>
+    <text x="100" y="152" font-family="'Barlow Condensed', sans-serif" font-weight="900" font-size="28" fill="#ffffff" text-anchor="middle" letter-spacing="2">ÉLITE</text>
+    <polygon points="100,108 108,122 100,132 92,122" fill="#ffffff"/>
+    <polygon points="100,108 108,122 100,126" fill="#70a1ff"/>
+  </svg>

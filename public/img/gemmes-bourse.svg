@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+    <defs>
+      <radialGradient id="glow2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.4"/>
+        <stop offset="100%" stop-color="#00d2ff" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="pouch" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#8b263e"/><stop offset="50%" stop-color="#5c1d2e"/><stop offset="100%" stop-color="#3d131e"/>
+      </linearGradient>
+      <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#ffe494"/><stop offset="100%" stop-color="#c99738"/>
+      </linearGradient>
+    </defs>
+    <circle cx="100" cy="115" r="75" fill="url(#glow2)"/>
+    <!-- Pouch Body -->
+    <path d="M50 130 C45 165 70 175 100 175 C130 175 155 165 150 130 C145 105 125 100 120 95 C125 80 130 75 125 70 C115 65 110 75 100 75 C90 75 85 65 75 70 C70 75 75 80 80 95 C75 100 55 105 50 130 Z" fill="url(#pouch)"/>
+    <!-- Rope -->
+    <path d="M78 95 C90 98 110 98 122 95 C125 97 122 101 120 102 C108 105 92 105 80 102 Z" fill="url(#gold)"/>
+    <path d="M98 100 L95 125 M102 100 L108 122" stroke="url(#gold)" stroke-width="3" stroke-linecap="round"/>
+    <!-- Crystals overflowing -->
+    <polygon points="85,75 95,50 110,58 105,80" fill="#00d2ff"/>
+    <polygon points="95,50 104,42 110,58" fill="#caf0f8"/>
+    <polygon points="108,70 120,48 132,60 122,78" fill="#70f3ff"/>
+    <polygon points="120,48 128,42 132,60" fill="#ffffff"/>
+    <polygon points="70,82 78,65 90,75 82,88" fill="#0096c7"/>
+    <!-- Sparkles -->
+    <polygon points="140,45 142,38 144,45 151,47 144,49 142,56 140,49 133,47" fill="#ffffff"/>
+  </svg>
