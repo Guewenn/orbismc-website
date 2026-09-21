@@ -1,9 +1,9 @@
 {
   "port": 8080,
-  "urlPublique": "http://localhost:8080",
+  "urlPublique": "https://mcorbis.com",
   "nomServeur": "OrbisMC",
-  "adresseJeu": "localhost",
-  "versionJeu": "26.2",
+  "adresseJeu": "play.mcorbis.com",
+  "versionJeu": "1.21 à 26.2",
   "discord": "",
   "minecraft": {
     "hote": "127.0.0.1",

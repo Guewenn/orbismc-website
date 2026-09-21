@@ -16,7 +16,7 @@ const seo = require('./lib/seo');
 
 const app = express();
 app.disable('x-powered-by');
-app.set('trust proxy', 'loopback'); // derrière un éventuel reverse proxy local (https)
+app.set('trust proxy', 1); // Détecte le vrai IP visiteur et HTTPS derrière Vercel / Nginx
 app.set('etag', 'strong');
 
 app.use(securite.entetes);
