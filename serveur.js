@@ -67,6 +67,7 @@ app.get('/sitemap.xml', asyncr(async (req, res) => {
   res.type('application/xml').set('Cache-Control', 'public, max-age=3600').send(seo.plan(await donnees.joueursRecents(500)));
 }));
 app.get('/site.webmanifest', (req, res) => res.type('application/manifest+json').set('Cache-Control', 'public, max-age=86400').send(seo.manifeste()));
+app.get('/google3ebe9a7838b68fc4.html', (req, res) => res.type('text/html').send('google-site-verification: google3ebe9a7838b68fc4.html'));
 app.get('/.well-known/security.txt', (req, res) => res.type('text/plain').send(seo.securityTxt()));
 
 // ------------------------------------------------------------------ pages publiques
