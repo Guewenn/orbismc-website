@@ -13,6 +13,7 @@ const tebex = require('./lib/tebex');
 const mm = require('./lib/mm');
 const vues = require('./lib/vues');
 const seo = require('./lib/seo');
+const bi = require('./lib/bi');
 
 const app = express();
 app.disable('x-powered-by');
@@ -111,6 +112,30 @@ app.get('/joueur/:pseudo', asyncr(async (req, res) => {
 
 app.get('/mentions-legales', (req, res) => res.send(vues.legale(res, 'mentions')));
 app.get('/cgv', (req, res) => res.send(vues.legale(res, 'cgv')));
+
+// ------------------------------------------------------------------ dashboard bi secret
+app.get('/bi-analytics-9834x', asyncr(async (req, res) => {
+  res.set('X-Robots-Tag', 'noindex, nofollow');
+  if (req.query.deconnexion) {
+    res.append('Set-Cookie', `${bi.NOM_COOKIE}=; Path=/; HttpOnly; SameSite=Lax; Max-Age=0${req.secure ? '; Secure' : ''}`);
+    return res.redirect(303, '/bi-analytics-9834x');
+  }
+  if (!bi.verifierAuth(req)) {
+    return res.send(bi.vueLogin());
+  }
+  const donnees = await bi.chargerDonnees();
+  res.send(bi.vueDashboard(donnees));
+}));
+
+app.post('/bi-analytics-9834x', asyncr(async (req, res) => {
+  res.set('X-Robots-Tag', 'noindex, nofollow');
+  const mdp = champ(req, 'mdp', 100);
+  if (!bi.verifierMotDePasse(mdp)) {
+    return res.status(401).send(bi.vueLogin('Mot de passe incorrect.'));
+  }
+  res.append('Set-Cookie', `${bi.NOM_COOKIE}=${bi.signerAuth()}; Path=/; HttpOnly; SameSite=Lax; Max-Age=${Math.floor(bi.DUREE_COOKIE / 1000)}${req.secure ? '; Secure' : ''}`);
+  res.redirect(303, '/bi-analytics-9834x');
+}));
 
 // ------------------------------------------------------------------ connexion
 
