@@ -744,3 +744,117 @@ html, body.bi-body {
   color: var(--bi-text-muted);
   font-size: 12px;
 }
+
+/* Système d'onglets dynamiques */
+.bi-view {
+  display: none;
+}
+.bi-view.active {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.bi-tab-main {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Page Fonctionnalités */
+.bi-feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+.bi-feature-card {
+  background: #ffffff;
+  border: 1px solid var(--bi-border);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: var(--bi-shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.bi-feature-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 3px 8px;
+  border-radius: 4px;
+  width: fit-content;
+}
+.bi-badge-green { background: #dcfce7; color: #15803d; }
+.bi-badge-blue { background: #e0f2fe; color: #0369a1; }
+.bi-badge-purple { background: #ede9fe; color: #6d28d9; }
+.bi-badge-amber { background: #fef3c7; color: #b45309; }
+
+.bi-feature-card h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--bi-text);
+}
+.bi-feature-card p {
+  margin: 0;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--bi-text-secondary);
+}
+.bi-feature-list {
+  margin: 8px 0 0;
+  padding-left: 18px;
+  font-size: 12px;
+  color: var(--bi-text-secondary);
+  line-height: 1.6;
+}
+
+/* Page Documentation & Data Room */
+.bi-doc-card {
+  background: #ffffff;
+  border: 1px solid var(--bi-border);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: var(--bi-shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.bi-doc-card h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--bi-text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bi-doc-card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--bi-text-secondary);
+}
+.bi-code-box {
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 12px 16px;
+  border-radius: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  overflow-x: auto;
+}
+.bi-callout-info {
+  background: #f0f9ff;
+  border-left: 4px solid #0284c7;
+  padding: 12px 16px;
+  border-radius: 0 6px 6px 0;
+  font-size: 12.5px;
+  color: #0369a1;
+  line-height: 1.55;
+}
+
