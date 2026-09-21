@@ -1,0 +1,514 @@
+/* Feuilles de styles pour le Dashboard BI OrbisMC */
+:root {
+  --bi-bg: #0b0914;
+  --bi-card: #141126;
+  --bi-card-hover: #191630;
+  --bi-border: #242044;
+  --bi-primary: #7b4dfc;
+  --bi-primary-light: #9d77ff;
+  --bi-cyan: #00d2d3;
+  --bi-cyan-dark: #0abde3;
+  --bi-green: #10b981;
+  --bi-orange: #ff7675;
+  --bi-orange-dark: #e17055;
+  --bi-text: #f1f0f7;
+  --bi-muted: #8b87aa;
+}
+
+body.bi-body {
+  background: var(--bi-bg);
+  color: var(--bi-text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Page de connexion */
+.bi-login-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.bi-login-card {
+  background: var(--bi-card);
+  border: 1px solid var(--bi-border);
+  border-radius: 20px;
+  padding: 44px 36px;
+  width: 100%;
+  max-width: 440px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+.bi-badge-prive {
+  display: inline-block;
+  background: rgba(123, 77, 252, 0.15);
+  color: var(--bi-primary-light);
+  border: 1px solid rgba(123, 77, 252, 0.4);
+  padding: 6px 14px;
+  border-radius: 30px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  margin-bottom: 24px;
+}
+
+.bi-login-card h1 {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 0 0 10px;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+}
+
+.bi-login-card p {
+  color: var(--bi-muted);
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 32px;
+}
+
+.bi-champ {
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+.bi-champ label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #cfcbe3;
+  margin-bottom: 8px;
+}
+
+.bi-champ input {
+  width: 100%;
+  padding: 15px 16px;
+  background: #080611;
+  border: 1px solid var(--bi-border);
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+.bi-champ input:focus {
+  border-color: var(--bi-primary);
+  box-shadow: 0 0 0 3px rgba(123, 77, 252, 0.25);
+}
+
+.bi-btn-login {
+  width: 100%;
+  padding: 15px;
+  background: linear-gradient(135deg, #7b4dfc 0%, #5b2fd1 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: 0 6px 20px rgba(91, 47, 209, 0.4);
+}
+
+.bi-btn-login:hover {
+  background: linear-gradient(135deg, #8c62ff 0%, #6f3ef5 100%);
+  transform: translateY(-1px);
+}
+
+.bi-btn-login:active {
+  transform: translateY(1px);
+}
+
+.bi-alerte {
+  background: rgba(239, 68, 68, 0.15);
+  border: 1px solid #ef4444;
+  color: #fca5a5;
+  padding: 12px 16px;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+/* En-tête du Dashboard */
+.bi-header {
+  background: #110e21;
+  border-bottom: 1px solid var(--bi-border);
+  padding: 18px 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.bi-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.bi-logo-dot {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, var(--bi-primary) 0%, #4a1bb3 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  color: #fff;
+  font-size: 16px;
+}
+
+.bi-brand h1 {
+  font-size: 19px;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: -0.4px;
+  color: #ffffff;
+}
+
+.bi-status-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 12px;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.4);
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--bi-green);
+}
+
+.bi-status-tag.simu {
+  background: rgba(245, 158, 11, 0.12);
+  border-color: rgba(245, 158, 11, 0.4);
+  color: #fbbf24;
+}
+
+.bi-pulse {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 10px currentColor;
+}
+
+.bi-btn-deconnexion {
+  color: var(--bi-muted);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 14px;
+  border: 1px solid var(--bi-border);
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.bi-btn-deconnexion:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+  border-color: #3b3664;
+}
+
+/* Conteneur principal */
+.bi-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 36px 24px 60px;
+}
+
+/* Grille KPI */
+.bi-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  margin-bottom: 32px;
+}
+
+.bi-kpi-card {
+  background: var(--bi-card);
+  border: 1px solid var(--bi-border);
+  border-radius: 14px;
+  padding: 22px 24px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.bi-kpi-card:hover {
+  border-color: #383266;
+  transform: translateY(-2px);
+}
+
+.bi-kpi-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  font-weight: 700;
+  color: var(--bi-muted);
+  margin-bottom: 10px;
+}
+
+.bi-kpi-num {
+  font-size: 28px;
+  font-weight: 800;
+  color: #ffffff;
+  letter-spacing: -0.5px;
+}
+
+.bi-kpi-foot {
+  font-size: 13px;
+  margin-top: 8px;
+  color: var(--bi-green);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.bi-badge-good {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/* Carte Graphique */
+.bi-card-box {
+  background: var(--bi-card);
+  border: 1px solid var(--bi-border);
+  border-radius: 16px;
+  padding: 28px;
+  margin-bottom: 28px;
+}
+
+.bi-card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.bi-card-head h3 {
+  font-size: 18px;
+  font-weight: 800;
+  color: #ffffff;
+  margin: 0 0 6px;
+  letter-spacing: -0.3px;
+}
+
+.bi-card-head p {
+  font-size: 13px;
+  color: var(--bi-muted);
+  margin: 0;
+}
+
+.bi-legend-tag {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--bi-cyan);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Graphique en barres CSS moderne */
+.bi-barchart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 16px;
+  height: 270px;
+  padding: 24px 12px 0;
+  border-bottom: 1px solid var(--bi-border);
+  box-sizing: border-box;
+}
+
+.bi-barcol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+}
+
+.bi-barval {
+  font-size: 12px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.bi-barwrap {
+  width: 100%;
+  max-width: 64px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.bi-barline {
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  background: linear-gradient(180deg, var(--bi-cyan) 0%, var(--bi-cyan-dark) 100%);
+  min-height: 8px;
+  box-shadow: 0 4px 15px rgba(0, 210, 211, 0.25);
+  transition: height 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bi-barline.orange {
+  background: linear-gradient(180deg, var(--bi-orange) 0%, var(--bi-orange-dark) 100%);
+  box-shadow: 0 4px 15px rgba(255, 118, 117, 0.25);
+}
+
+.bi-barlabel {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--bi-muted);
+  margin-top: 14px;
+}
+
+/* Grille 2 colonnes */
+.bi-dual-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
+  gap: 24px;
+  margin-bottom: 28px;
+}
+
+/* Tableau d'acquisition */
+.bi-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.bi-table th {
+  text-align: left;
+  padding: 12px 16px;
+  font-size: 12px;
+  color: var(--bi-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  border-bottom: 1px solid var(--bi-border);
+}
+
+.bi-table td {
+  padding: 16px;
+  font-size: 14px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.bi-table tr:hover td {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.bi-hostname-badge {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 4px 8px;
+  border-radius: 6px;
+  color: #e2e0f0;
+  font-size: 13px;
+}
+
+/* Funnel */
+.bi-funnel-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.bi-funnel-label {
+  width: 220px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.bi-funnel-track {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  height: 28px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.bi-funnel-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #7b4dfc 0%, #a382ff 100%);
+  border-radius: 8px;
+}
+
+.bi-funnel-stat {
+  width: 140px;
+  text-align: right;
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.bi-funnel-sub {
+  font-size: 11px;
+  color: var(--bi-muted);
+  font-weight: 500;
+}
+
+/* Grille de rétention */
+.bi-retention-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 14px;
+}
+
+.bi-retention-card {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--bi-border);
+  border-radius: 12px;
+  padding: 22px;
+}
+
+.bi-retention-top {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--bi-muted);
+  margin-bottom: 8px;
+}
+
+.bi-retention-score {
+  font-size: 26px;
+  font-weight: 800;
+  color: #ffffff;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.bi-retention-target {
+  font-size: 13px;
+  color: var(--bi-green);
+  font-weight: 700;
+}
+
+.bi-retention-desc {
+  font-size: 12px;
+  color: var(--bi-muted);
+  line-height: 1.5;
+  margin: 8px 0 0;
+}

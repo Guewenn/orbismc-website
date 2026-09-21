@@ -110,7 +110,28 @@ app.get('/joueur/:pseudo', asyncr(async (req, res) => {
   res.send(vues.joueur(res, p));
 }));
 
+app.get('/contact', (req, res) => {
+  res.send(vues.contact(res, { ok: req.query.ok === '1', erreur: requeteTexte(req, 'erreur', 50) }));
+});
+
+app.post('/contact', session.verifierCsrf, asyncr(async (req, res) => {
+  const email = champ(req, 'email', 100).trim();
+  const sujet = champ(req, 'sujet', 60).trim();
+  const message = champ(req, 'message', 2000).trim();
+  const pseudo = champ(req, 'pseudo', 16).trim();
+
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !message || message.length < 5) {
+    return res.status(400).send(vues.contact(res, { erreur: 'Merci de renseigner une adresse email valide et un message explicite.' }));
+  }
+
+  console.log(`[NOUVEAU CONTACT] De: ${pseudo || 'Anonyme'} <${email}> | Sujet: ${sujet} | Reçu le: ${new Date().toISOString()}`);
+  console.log(`[MESSAGE]: ${message}`);
+
+  res.redirect(303, '/contact?ok=1');
+}));
+
 app.get('/mentions-legales', (req, res) => res.send(vues.legale(res, 'mentions')));
+app.get('/confidentialite', (req, res) => res.send(vues.legale(res, 'confidentialite')));
 app.get('/cgv', (req, res) => res.send(vues.legale(res, 'cgv')));
 
 // ------------------------------------------------------------------ dashboard bi secret
