@@ -142,17 +142,17 @@ a.tuile:hover { transform: translateY(-4px); box-shadow: 0 28px 50px -20px rgba(
 .tuile-jouer { grid-column: 2; background: linear-gradient(180deg, #ffb13d, var(--orange) 60%, #f47414); color: #fff; padding: 1.5rem 1.6rem; display: flex; flex-direction: column; justify-content: center; box-shadow: 0 6px 0 var(--orange-fonce), 0 20px 40px -20px rgba(30, 8, 60, .55); }
 .tuile-jouer .grand-mot { color: #fff; text-shadow: 0 3px 0 rgba(160, 60, 0, .45); }
 .tuile-jouer .sous b { color: #fff; }
-.ip { display: flex; align-items: center; margin-top: 1rem; background: rgba(255, 255, 255, .96); border-radius: 14px; padding: .35rem .35rem .35rem 1rem; gap: .6rem; }
-.ip code { background: none; padding: 0; color: var(--texte); font: 700 1.05rem/1 var(--corps); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ip { display: flex; align-items: center; justify-content: space-between; margin-top: 1rem; background: #ffffff !important; border-radius: 14px; padding: .4rem .4rem .4rem 1.15rem; gap: .75rem; box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12); box-sizing: border-box; width: 100%; color: #1e1b4b !important; }
+.ip code { background: none; padding: 0; color: #1e1b4b !important; font: 700 1.05rem/1 var(--corps); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .ip button { border: 0; cursor: pointer; border-radius: 10px; padding: .7rem .95rem; background: var(--prune); color: #fff; font: 600 .85rem/1 var(--corps); transition: background .15s; }
 .ip button:hover { background: var(--violet-fonce); }
 .ip-bientot { justify-content: space-between; }
-.badge-bientot { display: inline-flex; align-items: center; gap: .6rem; font: 700 .98rem/1 var(--corps); color: var(--prune); flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.point-pulse { display: inline-block; width: 10px; height: 10px; border-radius: 50%; background: #f59e0b; box-shadow: 0 0 0 4px rgba(245, 158, 11, .28); animation: battement 1.8s infinite ease-in-out; flex-shrink: 0; }
+.badge-bientot { display: inline-flex !important; align-items: center !important; gap: .6rem !important; font: 700 .98rem/1 var(--corps) !important; color: #1e1b4b !important; flex: 1 !important; overflow: hidden !important; text-overflow: ellipsis !important; white-space: nowrap !important; }
+.point-pulse { display: inline-block !important; width: 10px !important; height: 10px !important; border-radius: 50% !important; background: #f59e0b !important; box-shadow: 0 0 0 4px rgba(245, 158, 11, .28) !important; animation: battement 1.8s infinite ease-in-out !important; flex-shrink: 0 !important; }
 @keyframes battement { 0%, 100% { transform: scale(1); opacity: 1; } 50% { transform: scale(1.2); opacity: .7; } }
-.btn-ip-discord { display: inline-flex; align-items: center; gap: .45rem; padding: .65rem 1.05rem; border-radius: 10px; background: var(--discord); color: #fff !important; font: 600 .88rem/1 var(--corps); text-decoration: none; box-shadow: 0 3px 0 #3b45b8; transition: transform .12s ease, box-shadow .12s ease, filter .12s ease; white-space: nowrap; }
-.btn-ip-discord:hover { transform: translateY(-2px); box-shadow: 0 5px 0 #3b45b8; filter: brightness(1.06); }
-.btn-ip-discord svg { display: block; flex-shrink: 0; }
+.btn-ip-discord { display: inline-flex !important; align-items: center !important; justify-content: center !important; gap: .45rem !important; padding: .7rem 1.25rem !important; border-radius: 10px !important; background: #5865f2 !important; color: #ffffff !important; font: 700 .9rem/1 var(--corps) !important; text-decoration: none !important; box-shadow: 0 3px 0 #3b45b8, 0 6px 14px rgba(88, 101, 242, .35) !important; transition: transform .12s ease, box-shadow .12s ease, filter .12s ease !important; white-space: nowrap !important; flex-shrink: 0 !important; }
+.btn-ip-discord:hover { transform: translateY(-2px) !important; box-shadow: 0 5px 0 #3b45b8, 0 10px 18px rgba(88, 101, 242, .45) !important; filter: brightness(1.08) !important; color: #ffffff !important; }
+.btn-ip-discord svg { display: block !important; flex-shrink: 0 !important; fill: #ffffff !important; width: 17px !important; height: 17px !important; }
 .point { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: #cbd5e1; margin-right: .35rem; vertical-align: middle; }
 .point.vivant { background: #4ade80; box-shadow: 0 0 0 4px rgba(74, 222, 128, .3); }
 .point.en-attente { background: #f59e0b; box-shadow: 0 0 0 4px rgba(245, 158, 11, .25); }
@@ -583,3 +583,15 @@ a.tuile:hover { transform: translateY(-4px); box-shadow: 0 28px 50px -20px rgba(
 .banniere-grade-wiki p { margin: 0; opacity: .9; font-size: .95rem; }
 .banniere-grade-wiki a { flex-shrink: 0; background: #fff; color: var(--texte); font-weight: 700; padding: .65rem 1.2rem; border-radius: 12px; transition: transform .2s; }
 .banniere-grade-wiki a:hover { transform: scale(1.05); }
+
+/* ------------------------------------------------------------------ formulaire & champs */
+.champ { display: flex; flex-direction: column; gap: .45rem; margin-bottom: 1.25rem; text-align: left; }
+.champ label { font: 600 .94rem/1.3 var(--corps); color: var(--texte); display: block; }
+.champ input, .champ select, .champ textarea { width: 100%; box-sizing: border-box; padding: .85rem 1.05rem; border: 1.5px solid var(--bord); border-radius: 14px; background: #ffffff; color: var(--texte); font: 500 .98rem/1.5 var(--corps); transition: border-color .15s ease, box-shadow .15s ease; outline: none; -webkit-appearance: none; appearance: none; box-shadow: inset 0 1px 2px rgba(0,0,0,.03); }
+.champ select { background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%235f5976' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 1.1rem center; background-size: 16px; padding-right: 2.8rem; cursor: pointer; }
+.champ textarea { min-height: 140px; resize: vertical; line-height: 1.6; }
+.champ input:focus, .champ select:focus, .champ textarea:focus { border-color: var(--violet); box-shadow: 0 0 0 4px rgba(124, 77, 255, .16); background: #ffffff; }
+.champ input::placeholder, .champ textarea::placeholder { color: var(--discret); opacity: .8; }
+.requis { color: var(--erreur); font-weight: 700; margin-left: 2px; }
+.separateur { border: 0; border-top: 1px solid var(--bord); margin: 1.5rem 0; }
+
