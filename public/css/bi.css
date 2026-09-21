@@ -1,514 +1,700 @@
-/* Feuilles de styles pour le Dashboard BI OrbisMC */
+/* Dashboard Business Intelligence & Analytics - Thème clair SaaS Pro (Inspiré Metabase / Fuze) */
+
 :root {
-  --bi-bg: #0b0914;
-  --bi-card: #141126;
-  --bi-card-hover: #191630;
-  --bi-border: #242044;
-  --bi-primary: #7b4dfc;
-  --bi-primary-light: #9d77ff;
-  --bi-cyan: #00d2d3;
-  --bi-cyan-dark: #0abde3;
+  --bi-bg: #f8fafc;
+  --bi-sidebar-bg: #ffffff;
+  --bi-card-bg: #ffffff;
+  --bi-border: #e2e8f0;
+  --bi-border-light: #f1f5f9;
+  
+  --bi-text: #0f172a;
+  --bi-text-secondary: #475569;
+  --bi-text-muted: #64748b;
+  --bi-text-light: #94a3b8;
+  
+  --bi-primary: #0284c7;
+  --bi-primary-hover: #0369a1;
+  --bi-primary-light: #e0f2fe;
+  
+  --bi-cyan: #00a3c4;
+  --bi-orange: #f97316;
+  --bi-navy: #1e293b;
   --bi-green: #10b981;
-  --bi-orange: #ff7675;
-  --bi-orange-dark: #e17055;
-  --bi-text: #f1f0f7;
-  --bi-muted: #8b87aa;
+  
+  --bi-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --bi-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px -1px rgba(0, 0, 0, 0.08);
+  --bi-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  
+  --bi-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
 body.bi-body {
-  background: var(--bi-bg);
-  color: var(--bi-text);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   margin: 0;
   padding: 0;
+  background: var(--bi-bg);
+  color: var(--bi-text);
+  font-family: var(--bi-font);
   -webkit-font-smoothing: antialiased;
 }
 
-/* Page de connexion */
+/* Page de connexion épurée SaaS */
 .bi-login-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   padding: 24px;
-  box-sizing: border-box;
+  background: #f1f5f9;
 }
 
 .bi-login-card {
-  background: var(--bi-card);
+  background: #ffffff;
   border: 1px solid var(--bi-border);
-  border-radius: 20px;
-  padding: 44px 36px;
+  border-radius: 12px;
+  padding: 40px 36px;
   width: 100%;
-  max-width: 440px;
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
+  max-width: 420px;
+  box-shadow: var(--bi-shadow-md);
   text-align: center;
 }
 
 .bi-badge-prive {
   display: inline-block;
-  background: rgba(123, 77, 252, 0.15);
-  color: var(--bi-primary-light);
-  border: 1px solid rgba(123, 77, 252, 0.4);
-  padding: 6px 14px;
-  border-radius: 30px;
+  background: #f1f5f9;
+  color: #475569;
+  border: 1px solid var(--bi-border);
+  padding: 4px 12px;
+  border-radius: 999px;
   font-size: 11px;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
-  margin-bottom: 24px;
+  letter-spacing: 0.8px;
+  margin-bottom: 20px;
 }
 
 .bi-login-card h1 {
-  font-size: 26px;
-  font-weight: 800;
-  margin: 0 0 10px;
-  color: #ffffff;
-  letter-spacing: -0.5px;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 8px;
+  color: var(--bi-text);
 }
 
 .bi-login-card p {
-  color: var(--bi-muted);
-  font-size: 14px;
-  line-height: 1.6;
-  margin: 0 0 32px;
+  color: var(--bi-text-secondary);
+  font-size: 13.5px;
+  line-height: 1.5;
+  margin: 0 0 28px;
+}
+
+.bi-alerte {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: left;
 }
 
 .bi-champ {
-  margin-bottom: 22px;
+  margin-bottom: 20px;
   text-align: left;
 }
 
 .bi-champ label {
   display: block;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 600;
-  color: #cfcbe3;
-  margin-bottom: 8px;
+  color: var(--bi-text-secondary);
+  margin-bottom: 6px;
 }
 
 .bi-champ input {
   width: 100%;
-  padding: 15px 16px;
-  background: #080611;
-  border: 1px solid var(--bi-border);
-  border-radius: 12px;
-  color: #ffffff;
-  font-size: 16px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  color: var(--bi-text);
+  font-size: 14.5px;
   outline: none;
-  box-sizing: border-box;
-  transition: all 0.2s;
+  transition: border-color 0.15s, box-shadow 0.15s;
 }
 
 .bi-champ input:focus {
   border-color: var(--bi-primary);
-  box-shadow: 0 0 0 3px rgba(123, 77, 252, 0.25);
+  box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
 }
 
 .bi-btn-login {
   width: 100%;
-  padding: 15px;
-  background: linear-gradient(135deg, #7b4dfc 0%, #5b2fd1 100%);
+  padding: 11px 16px;
+  background: #0f172a;
   color: #ffffff;
-  border: none;
-  border-radius: 12px;
-  font-size: 15px;
-  font-weight: 700;
+  border: 0;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
   cursor: pointer;
-  transition: all 0.2s;
-  box-shadow: 0 6px 20px rgba(91, 47, 209, 0.4);
+  transition: background 0.15s;
 }
 
 .bi-btn-login:hover {
-  background: linear-gradient(135deg, #8c62ff 0%, #6f3ef5 100%);
-  transform: translateY(-1px);
+  background: #1e293b;
 }
 
-.bi-btn-login:active {
-  transform: translateY(1px);
+/* Layout Dashboard principal avec Sidebar gauche */
+.bi-layout {
+  display: flex;
+  min-height: 100vh;
 }
 
-.bi-alerte {
-  background: rgba(239, 68, 68, 0.15);
-  border: 1px solid #ef4444;
-  color: #fca5a5;
-  padding: 12px 16px;
-  border-radius: 10px;
-  font-size: 14px;
-  margin-bottom: 24px;
-  text-align: left;
+/* Sidebar gauche (Filters) */
+.bi-sidebar {
+  width: 260px;
+  min-width: 260px;
+  background: var(--bi-sidebar-bg);
+  border-right: 1px solid var(--bi-border);
+  padding: 20px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-/* En-tête du Dashboard */
-.bi-header {
-  background: #110e21;
+@media (max-width: 900px) {
+  .bi-sidebar {
+    display: none;
+  }
+}
+
+.bi-sidebar-head {
+  padding-bottom: 12px;
   border-bottom: 1px solid var(--bi-border);
-  padding: 18px 36px;
+}
+
+.bi-sidebar-head h2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--bi-text);
+  letter-spacing: -0.2px;
+}
+
+.bi-filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.bi-filter-group label {
+  font-size: 11.5px;
+  font-weight: 600;
+  color: var(--bi-text-secondary);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: sticky;
-  top: 0;
-  z-index: 100;
 }
 
-.bi-brand {
+.bi-filter-group label .bi-info {
+  font-size: 11px;
+  color: var(--bi-text-light);
+  cursor: help;
+}
+
+.bi-select-box {
+  background: #ffffff;
+  border: 1px solid var(--bi-border);
+  border-radius: 6px;
+  padding: 7px 10px;
+  font-size: 12.5px;
+  color: var(--bi-text);
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  cursor: default;
+}
+
+.bi-select-box::after {
+  content: "▾";
+  font-size: 10px;
+  color: var(--bi-text-light);
+}
+
+.bi-range-track {
+  height: 6px;
+  background: #e2e8f0;
+  border-radius: 999px;
+  position: relative;
+  margin: 8px 0 4px;
+}
+
+.bi-range-bar {
+  position: absolute;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background: #0284c7;
+  border-radius: 999px;
+}
+
+.bi-range-handle {
+  position: absolute;
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 14px;
+  height: 14px;
+  background: #ffffff;
+  border: 2px solid #0284c7;
+  border-radius: 50%;
+  box-shadow: var(--bi-shadow-sm);
+}
+
+.bi-range-label {
+  font-size: 11px;
+  color: var(--bi-text-muted);
+}
+
+.bi-filter-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.bi-btn-filter {
+  width: 100%;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--bi-text);
+  cursor: pointer;
+}
+
+.bi-btn-filter:hover {
+  background: #f8fafc;
+}
+
+.bi-btn-clear {
+  background: none;
+  border: 0;
+  color: var(--bi-text-muted);
+  font-size: 11.5px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: underline;
+  text-align: center;
+}
+
+/* Zone principale du Dashboard */
+.bi-main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Barre supérieure (Top Bar) */
+.bi-topbar {
+  background: #ffffff;
+  border-bottom: 1px solid var(--bi-border);
+  padding: 16px 28px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bi-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.bi-title-row h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--bi-text);
+}
+
+.bi-star {
+  color: #cbd5e1;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.bi-refresh-icon {
+  color: #94a3b8;
+  font-size: 13px;
+}
+
+.bi-status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #10b981;
+}
+
+.bi-time-badge {
+  font-size: 11.5px;
+  color: var(--bi-text-muted);
+  background: #f1f5f9;
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.bi-tabs-main {
+  display: flex;
+  gap: 24px;
+}
+
+.bi-tab-main {
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--bi-text-secondary);
+  text-decoration: none;
+  padding-bottom: 12px;
+  border-bottom: 2px solid transparent;
+}
+
+.bi-tab-main.active {
+  color: #4f46e5;
+  border-bottom-color: #4f46e5;
+}
+
+.bi-btn-logout {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--bi-text-secondary);
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1px solid var(--bi-border);
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.bi-btn-logout:hover {
+  background: #f8fafc;
+  color: var(--bi-text);
+}
+
+/* Contenu des métriques et graphiques */
+.bi-content {
+  padding: 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Sous-onglets (Daily Sales, Weekly Sales, Monthly Sales, ...) */
+.bi-subnav-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.bi-subtabs {
+  display: flex;
+  border-bottom: 1px solid var(--bi-border);
+  width: 100%;
+  gap: 24px;
+}
+
+.bi-subtab {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--bi-text-muted);
+  padding: 8px 0;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.bi-subtab.active {
+  color: #4f46e5;
+  border-bottom-color: #4f46e5;
+}
+
+.bi-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.bi-pill {
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--bi-text-secondary);
+  background: #ffffff;
+  border: 1px solid var(--bi-border);
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.bi-pill.active {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  color: var(--bi-text);
+  font-weight: 600;
+}
+
+/* Cartes KPI compactes */
+.bi-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
   gap: 14px;
 }
 
-.bi-logo-dot {
-  width: 34px;
-  height: 34px;
-  border-radius: 10px;
-  background: linear-gradient(135deg, var(--bi-primary) 0%, #4a1bb3 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 900;
-  color: #fff;
-  font-size: 16px;
-}
-
-.bi-brand h1 {
-  font-size: 19px;
-  font-weight: 800;
-  margin: 0;
-  letter-spacing: -0.4px;
-  color: #ffffff;
-}
-
-.bi-status-tag {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 5px 12px;
-  background: rgba(16, 185, 129, 0.12);
-  border: 1px solid rgba(16, 185, 129, 0.4);
-  border-radius: 20px;
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--bi-green);
-}
-
-.bi-status-tag.simu {
-  background: rgba(245, 158, 11, 0.12);
-  border-color: rgba(245, 158, 11, 0.4);
-  color: #fbbf24;
-}
-
-.bi-pulse {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  background: currentColor;
-  box-shadow: 0 0 10px currentColor;
-}
-
-.bi-btn-deconnexion {
-  color: var(--bi-muted);
-  text-decoration: none;
-  font-size: 13px;
-  font-weight: 600;
-  padding: 8px 14px;
+.bi-kpi-card {
+  background: var(--bi-card-bg);
   border: 1px solid var(--bi-border);
   border-radius: 8px;
-  transition: all 0.2s;
-}
-
-.bi-btn-deconnexion:hover {
-  color: #fff;
-  background: rgba(255, 255, 255, 0.05);
-  border-color: #3b3664;
-}
-
-/* Conteneur principal */
-.bi-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 36px 24px 60px;
-}
-
-/* Grille KPI */
-.bi-kpi-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 18px;
-  margin-bottom: 32px;
-}
-
-.bi-kpi-card {
-  background: var(--bi-card);
-  border: 1px solid var(--bi-border);
-  border-radius: 14px;
-  padding: 22px 24px;
-  transition: transform 0.2s, border-color 0.2s;
-}
-
-.bi-kpi-card:hover {
-  border-color: #383266;
-  transform: translateY(-2px);
+  padding: 16px 18px;
+  box-shadow: var(--bi-shadow-sm);
 }
 
 .bi-kpi-title {
   font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  font-weight: 700;
-  color: var(--bi-muted);
-  margin-bottom: 10px;
+  font-weight: 600;
+  color: var(--bi-text-muted);
+  margin-bottom: 6px;
 }
 
 .bi-kpi-num {
-  font-size: 28px;
-  font-weight: 800;
-  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--bi-text);
   letter-spacing: -0.5px;
+  margin-bottom: 4px;
 }
 
 .bi-kpi-foot {
-  font-size: 13px;
-  margin-top: 8px;
-  color: var(--bi-green);
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 6px;
+  font-size: 11.5px;
+  color: #10b981;
+  font-weight: 500;
 }
 
-.bi-badge-good {
-  background: rgba(16, 185, 129, 0.15);
-  color: #34d399;
-  padding: 3px 8px;
-  border-radius: 6px;
-  font-size: 11px;
-  font-weight: 700;
+.bi-kpi-foot.neutral {
+  color: var(--bi-text-muted);
 }
 
-/* Carte Graphique */
+/* Carte de graphique */
 .bi-card-box {
-  background: var(--bi-card);
+  background: var(--bi-card-bg);
   border: 1px solid var(--bi-border);
-  border-radius: 16px;
-  padding: 28px;
-  margin-bottom: 28px;
+  border-radius: 8px;
+  padding: 20px 22px;
+  box-shadow: var(--bi-shadow-sm);
 }
 
 .bi-card-head {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 24px;
+  margin-bottom: 18px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--bi-border-light);
 }
 
 .bi-card-head h3 {
-  font-size: 18px;
-  font-weight: 800;
-  color: #ffffff;
-  margin: 0 0 6px;
-  letter-spacing: -0.3px;
+  margin: 0 0 3px;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--bi-text);
 }
 
 .bi-card-head p {
-  font-size: 13px;
-  color: var(--bi-muted);
   margin: 0;
-}
-
-.bi-legend-tag {
   font-size: 12px;
-  font-weight: 700;
-  color: var(--bi-cyan);
-  display: flex;
-  align-items: center;
-  gap: 6px;
+  color: var(--bi-text-muted);
 }
 
-/* Graphique en barres CSS moderne */
-.bi-barchart {
-  display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
-  gap: 16px;
-  height: 270px;
-  padding: 24px 12px 0;
-  border-bottom: 1px solid var(--bi-border);
-  box-sizing: border-box;
-}
-
-.bi-barcol {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
-  justify-content: flex-end;
-}
-
-.bi-barval {
-  font-size: 12px;
-  font-weight: 800;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-
-.bi-barwrap {
+.bi-chart-scroll {
+  overflow-x: auto;
   width: 100%;
-  max-width: 64px;
-  height: 100%;
-  display: flex;
-  align-items: flex-end;
 }
 
-.bi-barline {
-  width: 100%;
-  border-radius: 8px 8px 0 0;
-  background: linear-gradient(180deg, var(--bi-cyan) 0%, var(--bi-cyan-dark) 100%);
-  min-height: 8px;
-  box-shadow: 0 4px 15px rgba(0, 210, 211, 0.25);
-  transition: height 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.bi-barline.orange {
-  background: linear-gradient(180deg, var(--bi-orange) 0%, var(--bi-orange-dark) 100%);
-  box-shadow: 0 4px 15px rgba(255, 118, 117, 0.25);
-}
-
-.bi-barlabel {
-  font-size: 12px;
-  font-weight: 600;
-  color: var(--bi-muted);
+/* Mini scrubber timeline en bas des charts */
+.bi-scrubber {
+  height: 20px;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
   margin-top: 14px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bi-scrubber-fill {
+  position: absolute;
+  inset: 0 10% 0 10%;
+  background: #e0f2fe;
+  border-left: 2px solid #0284c7;
+  border-right: 2px solid #0284c7;
 }
 
 /* Grille 2 colonnes */
 .bi-dual-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));
-  gap: 24px;
-  margin-bottom: 28px;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
-/* Tableau d'acquisition */
+@media (max-width: 1100px) {
+  .bi-dual-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Tableaux */
 .bi-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 10px;
+  font-size: 12.5px;
 }
 
 .bi-table th {
   text-align: left;
-  padding: 12px 16px;
-  font-size: 12px;
-  color: var(--bi-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.6px;
+  padding: 10px 12px;
   border-bottom: 1px solid var(--bi-border);
+  color: var(--bi-text-muted);
+  font-weight: 600;
 }
 
 .bi-table td {
-  padding: 16px;
-  font-size: 14px;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  padding: 11px 12px;
+  border-bottom: 1px solid var(--bi-border-light);
+  color: var(--bi-text);
+}
+
+.bi-table tr:last-child td {
+  border-bottom: 0;
 }
 
 .bi-table tr:hover td {
-  background: rgba(255, 255, 255, 0.02);
+  background: #f8fafc;
 }
 
 .bi-hostname-badge {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  background: rgba(255, 255, 255, 0.06);
-  padding: 4px 8px;
-  border-radius: 6px;
-  color: #e2e0f0;
-  font-size: 13px;
+  font-size: 11.5px;
+  color: #0369a1;
+  background: #f0f9ff;
+  padding: 3px 8px;
+  border-radius: 4px;
+  border: 1px solid #e0f2fe;
 }
 
-/* Funnel */
-.bi-funnel-item {
+/* Entonnoir */
+.bi-funnel-list {
   display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.bi-funnel-item {
+  display: grid;
+  grid-template-columns: 220px 1fr 130px;
   align-items: center;
-  gap: 16px;
-  margin-bottom: 18px;
+  gap: 14px;
 }
 
 .bi-funnel-label {
-  width: 220px;
-  font-size: 14px;
+  font-size: 12.5px;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--bi-text);
 }
 
 .bi-funnel-track {
-  flex: 1;
-  background: rgba(255, 255, 255, 0.05);
-  height: 28px;
-  border-radius: 8px;
+  background: #f1f5f9;
+  border-radius: 6px;
+  height: 22px;
   overflow: hidden;
 }
 
-.bi-funnel-fill {
-  height: 100%;
-  background: linear-gradient(90deg, #7b4dfc 0%, #a382ff 100%);
-  border-radius: 8px;
-}
-
 .bi-funnel-stat {
-  width: 140px;
-  text-align: right;
-  font-size: 13px;
+  font-size: 12.5px;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--bi-text);
+  text-align: right;
 }
 
 .bi-funnel-sub {
-  font-size: 11px;
-  color: var(--bi-muted);
-  font-weight: 500;
+  font-size: 11.5px;
+  font-weight: 400;
+  color: var(--bi-text-muted);
 }
 
-/* Grille de rétention */
+/* Grille Rétention */
 .bi-retention-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 18px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
   margin-top: 14px;
 }
 
 .bi-retention-card {
-  background: rgba(255, 255, 255, 0.03);
+  background: #f8fafc;
   border: 1px solid var(--bi-border);
-  border-radius: 12px;
-  padding: 22px;
+  border-radius: 6px;
+  padding: 14px;
 }
 
 .bi-retention-top {
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 600;
-  color: var(--bi-muted);
-  margin-bottom: 8px;
+  color: var(--bi-text-muted);
+  margin-bottom: 6px;
 }
 
 .bi-retention-score {
-  font-size: 26px;
-  font-weight: 800;
-  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--bi-text);
   display: flex;
   align-items: baseline;
-  gap: 10px;
+  gap: 8px;
+  margin-bottom: 6px;
 }
 
 .bi-retention-target {
-  font-size: 13px;
-  color: var(--bi-green);
-  font-weight: 700;
+  font-size: 11px;
+  font-weight: 600;
+  color: #0284c7;
+  background: #e0f2fe;
+  padding: 2px 6px;
+  border-radius: 4px;
 }
 
 .bi-retention-desc {
-  font-size: 12px;
-  color: var(--bi-muted);
+  margin: 0;
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: var(--bi-text-secondary);
+}
+
+.bi-note-benchmark {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--bi-border-light);
+  font-size: 11px;
   line-height: 1.5;
-  margin: 8px 0 0;
+  color: var(--bi-text-muted);
+}
+
+.text-success {
+  color: #10b981;
+  font-weight: 700;
 }
