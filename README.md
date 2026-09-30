@@ -52,6 +52,13 @@ Le site web disponible sur **[https://mcorbis.com](https://mcorbis.com)** propos
 
 ---
 
+## 🛠️ Maintenance & Déploiement
+
+- Déploiements automatiques continus via Vercel GitHub CI/CD.
+- Statut des serveurs et services vérifié pour la saison 2026.
+
+---
+
 ## 📄 Licence
 
 Ce projet est sous licence [MIT](LICENSE).
