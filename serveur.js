@@ -284,7 +284,8 @@ app.use((err, req, res, next) => {
 });
 
 if (require.main === module) {
-  app.listen(config.port, () => console.log(`Site en ligne : http://localhost:${config.port}`));
+  const host = '0.0.0.0';
+  app.listen(config.port, host, () => console.log(`Site en ligne : http://${host}:${config.port}`));
 }
 
 module.exports = app;

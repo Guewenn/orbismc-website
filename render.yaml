@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: mcorbis-website
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node serveur.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: URL_PUBLIQUE
+        value: https://mcorbis.com
