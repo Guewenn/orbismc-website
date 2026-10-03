@@ -1,16 +1,25 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "version": 2,
-  "builds": [
+  "framework": null,
+  "buildCommand": "",
+  "outputDirectory": "public",
+  "ignoreCommand": "node scripts/ignorer-deploiement.js",
+  "functions": {
+    "api/index.js": { "includeFiles": "{public/**,config.exemple.json,lib/**}" }
+  },
+  "headers": [
     {
-      "src": "api/index.js",
-      "use": "@vercel/node",
-      "config": { "includeFiles": ["public/**", "config.exemple.json", "lib/**"] }
+      "source": "/:chemin*",
+      "headers": [{ "key": "X-Content-Type-Options", "value": "nosniff" }]
+    },
+    {
+      "source": "/:dossier(css|js|fonts|img|videos|pack)/:chemin*",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600, s-maxage=86400" }]
     }
   ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "api/index.js"
-    }
+  "rewrites": [
+    { "source": "/", "destination": "/api/index" },
+    { "source": "/:chemin*", "destination": "/api/index" }
   ]
 }

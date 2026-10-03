@@ -1,0 +1,322 @@
+{
+  "suits.rave.*": {
+    "image": "/img/apercus/suits-rave.webp",
+    "type": "illustration"
+  },
+  "suits.astronaut.*": {
+    "image": "/img/apercus/suits-astronaut.webp",
+    "type": "modele"
+  },
+  "suits.diamond.*": {
+    "image": "/img/apercus/suits-diamond.webp",
+    "type": "modele"
+  },
+  "suits.frozen.*": {
+    "image": "/img/apercus/suits-frozen.webp",
+    "type": "modele"
+  },
+  "suits.cursed.*": {
+    "image": "/img/apercus/suits-cursed.webp",
+    "type": "modele"
+  },
+  "suits.slime.*": {
+    "image": "/img/apercus/suits-slime.webp",
+    "type": "modele"
+  },
+  "suits.santa.*": {
+    "image": "/img/apercus/suits-santa.webp",
+    "type": "modele"
+  },
+  "pets.skeleton": {
+    "image": "/img/apercus/pets-skeleton.webp",
+    "type": "modele"
+  },
+  "pets.zombie": {
+    "image": "/img/apercus/pets-zombie.webp",
+    "type": "modele"
+  },
+  "pets.irongolem": {
+    "image": "/img/apercus/pets-irongolem.webp",
+    "type": "portrait"
+  },
+  "pets.piggy": {
+    "image": "/img/apercus/pets-piggy.webp",
+    "type": "modele"
+  },
+  "pets.cow": {
+    "image": "/img/apercus/pets-cow.webp",
+    "type": "modele"
+  },
+  "pets.mooshroom": {
+    "image": "/img/apercus/pets-mooshroom.webp",
+    "type": "modele"
+  },
+  "pets.dog": {
+    "image": "/img/apercus/pets-dog.webp",
+    "type": "portrait"
+  },
+  "pets.chick": {
+    "image": "/img/apercus/pets-chick.webp",
+    "type": "modele"
+  },
+  "pets.villager": {
+    "image": "/img/apercus/pets-villager.webp",
+    "type": "portrait"
+  },
+  "pets.bat": {
+    "image": "/img/chapeaux/hats-bat.webp",
+    "type": "portrait"
+  },
+  "pets.sheep": {
+    "image": "/img/apercus/pets-sheep.webp",
+    "type": "modele"
+  },
+  "pets.slime": {
+    "image": "/img/apercus/pets-slime.webp",
+    "type": "modele"
+  },
+  "pets.blaze": {
+    "image": "/img/chapeaux/hats-blaze.webp",
+    "type": "portrait"
+  },
+  "pets.creeper": {
+    "image": "/img/apercus/pets-creeper.webp",
+    "type": "modele"
+  },
+  "pets.enderman": {
+    "image": "/img/apercus/pets-enderman.webp",
+    "type": "modele"
+  },
+  "pets.guardian": {
+    "image": "/img/apercus/pets-guardian.webp",
+    "type": "portrait"
+  },
+  "pets.witch": {
+    "image": "/img/apercus/pets-witch.webp",
+    "type": "portrait"
+  },
+  "pets.frog": {
+    "image": "/img/chapeaux/hats-frog.webp",
+    "type": "portrait"
+  },
+  "pets.warden": {
+    "image": "/img/apercus/pets-warden.webp",
+    "type": "portrait"
+  },
+  "pets.allay": {
+    "image": "/img/chapeaux/hats-allay.webp",
+    "type": "portrait"
+  },
+  "pets.axolotl": {
+    "image": "/img/apercus/pets-axolotl.webp",
+    "type": "portrait"
+  },
+  "pets.piglin": {
+    "image": "/img/apercus/pets-piglin.webp",
+    "type": "portrait"
+  },
+  "pets.strider": {
+    "image": "/img/chapeaux/hats-strider.webp",
+    "type": "portrait"
+  },
+  "pets.hoglin": {
+    "image": "/img/apercus/pets-hoglin.webp",
+    "type": "portrait"
+  },
+  "pets.piglinbrute": {
+    "image": "/img/apercus/pets-piglinbrute.webp",
+    "type": "portrait"
+  },
+  "pets.zoglin": {
+    "image": "/img/apercus/pets-zoglin.webp",
+    "type": "portrait"
+  },
+  "pets.zombifiedpiglin": {
+    "image": "/img/apercus/pets-zombifiedpiglin.webp",
+    "type": "portrait"
+  },
+  "pets.bee": {
+    "image": "/img/apercus/pets-bee.webp",
+    "type": "portrait"
+  },
+  "pets.panda": {
+    "image": "/img/apercus/pets-panda.webp",
+    "type": "portrait"
+  },
+  "pets.fox": {
+    "image": "/img/apercus/pets-fox.webp",
+    "type": "portrait"
+  },
+  "pets.ocelot": {
+    "image": "/img/chapeaux/hats-ocelot.webp",
+    "type": "portrait"
+  },
+  "pets.wanderingtrader": {
+    "image": "/img/apercus/pets-wanderingtrader.webp",
+    "type": "portrait"
+  },
+  "pets.pillager": {
+    "image": "/img/apercus/pets-pillager.webp",
+    "type": "portrait"
+  },
+  "pets.turtle": {
+    "image": "/img/chapeaux/hats-turtle.webp",
+    "type": "portrait"
+  },
+  "pets.drowned": {
+    "image": "/img/apercus/pets-drowned.webp",
+    "type": "modele"
+  },
+  "pets.illusioner": {
+    "image": "/img/apercus/pets-illusioner.webp",
+    "type": "portrait"
+  },
+  "pets.evoker": {
+    "image": "/img/apercus/pets-evoker.webp",
+    "type": "portrait"
+  },
+  "pets.vindicator": {
+    "image": "/img/apercus/pets-vindicator.webp",
+    "type": "portrait"
+  },
+  "pets.elderguardian": {
+    "image": "/img/apercus/pets-elderguardian.webp",
+    "type": "portrait"
+  },
+  "pets.witherskeleton": {
+    "image": "/img/apercus/pets-witherskeleton.webp",
+    "type": "modele"
+  },
+  "pets.husk": {
+    "image": "/img/apercus/pets-husk.webp",
+    "type": "modele"
+  },
+  "pets.stray": {
+    "image": "/img/apercus/pets-stray.webp",
+    "type": "modele"
+  },
+  "pets.polarbear": {
+    "image": "/img/apercus/pets-polarbear.webp",
+    "type": "portrait"
+  },
+  "gadgets.discoball": {
+    "image": "/img/apercus/gadgets-discoball.webp",
+    "type": "objet"
+  },
+  "gadgets.etherealpearl": {
+    "image": "/img/apercus/gadgets-etherealpearl.webp",
+    "type": "objet"
+  },
+  "gadgets.fleshhook": {
+    "image": "/img/apercus/gadgets-fleshhook.webp",
+    "type": "objet"
+  },
+  "gadgets.melonthrower": {
+    "image": "/img/apercus/gadgets-melonthrower.webp",
+    "type": "objet"
+  },
+  "gadgets.portalgun": {
+    "image": "/img/apercus/gadgets-portalgun.webp",
+    "type": "objet"
+  },
+  "gadgets.paintballgun": {
+    "image": "/img/apercus/gadgets-paintballgun.webp",
+    "type": "objet"
+  },
+  "gadgets.thorhammer": {
+    "image": "/img/apercus/gadgets-thorhammer.webp",
+    "type": "objet"
+  },
+  "gadgets.antigravity": {
+    "image": "/img/apercus/gadgets-antigravity.webp",
+    "type": "objet"
+  },
+  "gadgets.smashdown": {
+    "image": "/img/apercus/gadgets-smashdown.webp",
+    "type": "objet"
+  },
+  "gadgets.rocket": {
+    "image": "/img/apercus/gadgets-rocket.webp",
+    "type": "objet"
+  },
+  "gadgets.tsunami": {
+    "image": "/img/apercus/gadgets-tsunami.webp",
+    "type": "objet"
+  },
+  "gadgets.fungun": {
+    "image": "/img/apercus/gadgets-fungun.webp",
+    "type": "objet"
+  },
+  "gadgets.firework": {
+    "image": "/img/apercus/gadgets-firework.webp",
+    "type": "objet"
+  },
+  "gadgets.freezecannon": {
+    "image": "/img/apercus/gadgets-freezecannon.webp",
+    "type": "objet"
+  },
+  "gadgets.partypopper": {
+    "image": "/img/apercus/gadgets-partypopper.webp",
+    "type": "objet"
+  },
+  "gadgets.colorbomb": {
+    "image": "/img/apercus/gadgets-colorbomb.webp",
+    "type": "objet"
+  },
+  "gadgets.trampoline": {
+    "image": "/img/apercus/gadgets-trampoline.webp",
+    "type": "objet"
+  },
+  "gadgets.explosivesheep": {
+    "image": "/img/apercus/gadgets-explosivesheep.webp",
+    "type": "objet"
+  },
+  "gadgets.blizzardblaster": {
+    "image": "/img/apercus/gadgets-blizzardblaster.webp",
+    "type": "objet"
+  },
+  "gadgets.quakegun": {
+    "image": "/img/apercus/gadgets-quakegun.webp",
+    "type": "objet"
+  },
+  "mounts.mountoffire": {
+    "image": "/img/apercus/mounts-mountoffire.webp",
+    "type": "objet"
+  },
+  "mounts.mountofwater": {
+    "image": "/img/apercus/mounts-mountofwater.webp",
+    "type": "objet"
+  },
+  "mounts.infernalhorror": {
+    "image": "/img/apercus/mounts-infernalhorror.webp",
+    "type": "objet"
+  },
+  "mounts.pig": {
+    "image": "/img/chapeaux/hats-pig.webp",
+    "type": "portrait"
+  },
+  "mounts.strider": {
+    "image": "/img/chapeaux/hats-strider.webp",
+    "type": "portrait"
+  },
+  "mounts.slime": {
+    "image": "/img/chapeaux/hats-slime.webp",
+    "type": "portrait"
+  },
+  "mounts.hypecart": {
+    "image": "/img/apercus/mounts-hypecart.webp",
+    "type": "objet"
+  },
+  "emotes.cool": {
+    "image": "/img/chapeaux/hats-cool.webp",
+    "type": "portrait"
+  },
+  "emotes.surprised": {
+    "image": "/img/chapeaux/hats-surprised.webp",
+    "type": "portrait"
+  },
+  "emotes.wink": {
+    "image": "/img/chapeaux/hats-wink.webp",
+    "type": "portrait"
+  }
+}

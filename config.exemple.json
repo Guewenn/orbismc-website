@@ -4,8 +4,10 @@
   "nomServeur": "OrbisMC",
   "adresseJeu": "play.mcorbis.com",
   "ouvert": false,
-  "versionJeu": "1.21 à 26.2",
+  "versionJeu": "1.21.4 à 26.2",
   "discord": "https://discord.gg/Xeg7AH3X9B",
+  "youtube": "https://www.youtube.com/@OrbisMinecraft",
+  "tiktok": "https://www.tiktok.com/@serverorbismc",
   "minecraft": {
     "hote": "127.0.0.1",
     "port": 25565
@@ -26,5 +28,14 @@
       "nom": "serveur-prive.net",
       "url": "https://serveur-prive.net/minecraft/VOTRE-SERVEUR/vote"
     }
-  ]
+  ],
+  "courriel": {
+    "destinataire": "contact.orbis.server@gmail.com",
+    "smtp": {
+      "hote": "smtp.gmail.com",
+      "port": 465,
+      "utilisateur": "contact.orbis.server@gmail.com",
+      "motDePasse": "A_REMPLIR_MOT_DE_PASSE_APPLICATION_GOOGLE"
+    }
+  }
 }

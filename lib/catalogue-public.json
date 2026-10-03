@@ -1,0 +1,3800 @@
+[
+  {
+    "id": "titre_etoile",
+    "categorie": "TITRE",
+    "nom": "✦ Étoile",
+    "prix": 200,
+    "valeur": "<#f2d479>✦ Étoile",
+    "monnaie": "GEMMES",
+    "icone": "nether_star"
+  },
+  {
+    "id": "titre_givre",
+    "categorie": "TITRE",
+    "nom": "❄ Givré",
+    "prix": 350,
+    "valeur": "<#9fd8ff>❄ Givré",
+    "monnaie": "GEMMES",
+    "icone": "snowball"
+  },
+  {
+    "id": "titre_ardent",
+    "categorie": "TITRE",
+    "nom": "✹ Ardent",
+    "prix": 350,
+    "valeur": "<#ff8a4c>✹ Ardent",
+    "monnaie": "GEMMES",
+    "icone": "blaze_powder"
+  },
+  {
+    "id": "titre_survivant",
+    "categorie": "TITRE",
+    "nom": "☠ Survivant",
+    "prix": 500,
+    "valeur": "<#c9c9c9>☠ Survivant",
+    "monnaie": "GEMMES",
+    "icone": "skeleton_skull"
+  },
+  {
+    "id": "titre_stratege",
+    "categorie": "TITRE",
+    "nom": "♜ Stratège",
+    "prix": 500,
+    "valeur": "<#8fbf8a>♜ Stratège",
+    "monnaie": "GEMMES",
+    "icone": "crossbow"
+  },
+  {
+    "id": "titre_royal",
+    "categorie": "TITRE",
+    "nom": "♛ Royal",
+    "prix": 900,
+    "valeur": "<gradient:#f2d479:#c9a45c>♛ Royal</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "golden_helmet"
+  },
+  {
+    "id": "titre_legende",
+    "categorie": "TITRE",
+    "nom": "✪ Légende",
+    "prix": 1800,
+    "valeur": "<gradient:#ffcf6e:#ff6e9c:#9c6eff>✪ Légende</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "dragon_breath"
+  },
+  {
+    "id": "couleur_or",
+    "categorie": "COULEUR",
+    "nom": "Pseudo doré",
+    "prix": 350,
+    "valeur": "<#f2d479>{n}",
+    "monnaie": "GEMMES",
+    "icone": "gold_ingot"
+  },
+  {
+    "id": "couleur_glace",
+    "categorie": "COULEUR",
+    "nom": "Pseudo glacier",
+    "prix": 350,
+    "valeur": "<#9fd8ff>{n}",
+    "monnaie": "GEMMES",
+    "icone": "packed_ice"
+  },
+  {
+    "id": "couleur_rose",
+    "categorie": "COULEUR",
+    "nom": "Pseudo rose",
+    "prix": 350,
+    "valeur": "<#ff9fd4>{n}",
+    "monnaie": "GEMMES",
+    "icone": "pink_petals"
+  },
+  {
+    "id": "couleur_menthe",
+    "categorie": "COULEUR",
+    "nom": "Pseudo menthe",
+    "prix": 350,
+    "valeur": "<#9ff2c4>{n}",
+    "monnaie": "GEMMES",
+    "icone": "slime_ball"
+  },
+  {
+    "id": "couleur_feu",
+    "categorie": "COULEUR",
+    "nom": "Dégradé feu",
+    "prix": 900,
+    "valeur": "<gradient:#ff5f4c:#ffcf4c>{n}</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "magma_cream"
+  },
+  {
+    "id": "couleur_ocean",
+    "categorie": "COULEUR",
+    "nom": "Dégradé océan",
+    "prix": 900,
+    "valeur": "<gradient:#4cd3ff:#4c6bff>{n}</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "heart_of_the_sea"
+  },
+  {
+    "id": "couleur_aube",
+    "categorie": "COULEUR",
+    "nom": "Dégradé aube",
+    "prix": 900,
+    "valeur": "<gradient:#ff9fd4:#ffcf6e>{n}</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "cherry_sapling"
+  },
+  {
+    "id": "anim_braise",
+    "categorie": "COULEUR",
+    "nom": "Braise vivante (animé)",
+    "prix": 1600,
+    "valeur": "<gradient:#ff4c3b:#ffcf4c:#ff4c3b:{p}>{n}</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "fire_charge"
+  },
+  {
+    "id": "anim_maree",
+    "categorie": "COULEUR",
+    "nom": "Marée (animé)",
+    "prix": 1600,
+    "valeur": "<gradient:#4cd3ff:#4c6bff:#4cd3ff:{p}>{n}</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "nautilus_shell"
+  },
+  {
+    "id": "anim_aurore",
+    "categorie": "COULEUR",
+    "nom": "Aurore boréale (animé)",
+    "prix": 2200,
+    "valeur": "<gradient:#6effb4:#4cc3ff:#b46eff:#6effb4:{p}>{n}</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "echo_shard"
+  },
+  {
+    "id": "anim_arcenciel",
+    "categorie": "COULEUR",
+    "nom": "Arc-en-ciel (animé)",
+    "prix": 2900,
+    "valeur": "<gradient:#ff5f5f:#ffb35f:#fff35f:#5fff8f:#5fc3ff:#b35fff:#ff5f5f:{p}>{n}</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "prismarine_crystals"
+  },
+  {
+    "id": "titre_batisseur",
+    "categorie": "TITRE",
+    "nom": "♜ Bâtisseur",
+    "prix": 40000,
+    "valeur": "<#8fbf8a>♜ Bâtisseur",
+    "monnaie": "PIECES",
+    "icone": "stone_bricks"
+  },
+  {
+    "id": "couleur_td",
+    "categorie": "COULEUR",
+    "nom": "Dégradé Tower Defense",
+    "prix": 90000,
+    "valeur": "<gradient:#8fbf8a:#f2d479>{n}</gradient>",
+    "monnaie": "PIECES",
+    "icone": "crossbow"
+  },
+  {
+    "id": "titre_liche",
+    "categorie": "TITRE",
+    "nom": "☠ Tueur de Liche",
+    "prix": 4000,
+    "valeur": "<#b46eff>☠ Tueur de Liche",
+    "monnaie": "AMES",
+    "icone": "wither_skeleton_skull"
+  },
+  {
+    "id": "titre_interne",
+    "categorie": "TITRE",
+    "nom": "⚙ Interne",
+    "prix": 150,
+    "valeur": "<#8a8a8a>⚙ Interne",
+    "monnaie": "PARTS",
+    "icone": "paper"
+  },
+  {
+    "id": "titre_ferrailleur",
+    "categorie": "TITRE",
+    "nom": "⚙ Ferrailleur",
+    "prix": 400,
+    "valeur": "<#c9a45c>⚙ Ferrailleur",
+    "monnaie": "PARTS",
+    "icone": "iron_nugget"
+  },
+  {
+    "id": "titre_apnee",
+    "categorie": "TITRE",
+    "nom": "☢ Sans Combinaison",
+    "prix": 700,
+    "valeur": "<#9fd8ff>☢ Sans Combinaison",
+    "monnaie": "PARTS",
+    "icone": "glass_bottle"
+  },
+  {
+    "id": "titre_quota",
+    "categorie": "TITRE",
+    "nom": "✔ Quota Tenu",
+    "prix": 1100,
+    "valeur": "<gradient:#6effb4:#ffcf4c>✔ Quota Tenu</gradient>",
+    "monnaie": "PARTS",
+    "icone": "clock"
+  },
+  {
+    "id": "titre_abandonne",
+    "categorie": "TITRE",
+    "nom": "☠ Laissé sur la Lune",
+    "prix": 1400,
+    "valeur": "<gradient:#8a8a8a:#4c4c4c>☠ Laissé sur la Lune</gradient>",
+    "monnaie": "PARTS",
+    "icone": "dead_bush"
+  },
+  {
+    "id": "couleur_compagnie",
+    "categorie": "COULEUR",
+    "nom": "Pseudo Compagnie",
+    "prix": 900,
+    "valeur": "<#ffcf4c>{n}",
+    "monnaie": "PARTS",
+    "icone": "yellow_dye"
+  },
+  {
+    "id": "couleur_sonar",
+    "categorie": "COULEUR",
+    "nom": "Dégradé sonar",
+    "prix": 1600,
+    "valeur": "<gradient:#0fa3b1:#6effb4>{n}</gradient>",
+    "monnaie": "PARTS",
+    "icone": "sculk_sensor"
+  },
+  {
+    "id": "couleur_balise",
+    "categorie": "COULEUR",
+    "nom": "Balise de détresse (animé)",
+    "prix": 2600,
+    "valeur": "<gradient:#ff4c3b:#ffcf4c:#ff4c3b:{p}>{n}</gradient>",
+    "monnaie": "PARTS",
+    "icone": "redstone_lamp"
+  },
+  {
+    "id": "titre_actionnaire",
+    "categorie": "TITRE",
+    "nom": "◈ Actionnaire",
+    "prix": 4500,
+    "valeur": "<gradient:#ffcf4c:#ffffff:#ffcf4c>◈ Actionnaire</gradient>",
+    "monnaie": "PARTS",
+    "icone": "gold_block"
+  },
+  {
+    "id": "titre_donjon100",
+    "categorie": "TITRE",
+    "nom": "✪ Légende du Donjon",
+    "prix": 0,
+    "valeur": "<gradient:#b46eff:#ffcf6e>✪ Légende du Donjon</gradient>",
+    "monnaie": "AMES",
+    "icone": "dragon_head"
+  },
+  {
+    "id": "titre_chasseur",
+    "categorie": "TITRE",
+    "nom": "☠ Chasseur de têtes",
+    "prix": 0,
+    "valeur": "<gradient:#ff4c3b:#8b0000>☠ Chasseur de têtes</gradient>",
+    "monnaie": "AMES",
+    "icone": "wither_skeleton_skull"
+  },
+  {
+    "id": "titre_employe",
+    "categorie": "TITRE",
+    "nom": "⚙ Employé modèle",
+    "prix": 0,
+    "valeur": "<gradient:#ffcf4c:#8a8a8a>⚙ Employé modèle</gradient>",
+    "monnaie": "PIECES",
+    "icone": "iron_ingot"
+  },
+  {
+    "id": "titre_disparus",
+    "categorie": "TITRE",
+    "nom": "🗃 Bureau des disparus",
+    "prix": 0,
+    "valeur": "<gradient:#9fb6c2:#e6eef2>🗃 Bureau des disparus</gradient>",
+    "monnaie": "PIECES",
+    "icone": "name_tag"
+  },
+  {
+    "id": "titre_veteran",
+    "categorie": "TITRE",
+    "nom": "☠ Vétéran des lunes",
+    "prix": 0,
+    "valeur": "<gradient:#c9c9c9:#4c6bff>☠ Vétéran des lunes</gradient>",
+    "monnaie": "PIECES",
+    "icone": "sculk_shrieker"
+  },
+  {
+    "id": "titre_favori",
+    "categorie": "TITRE",
+    "nom": "🎲 Favori du Bookmaker",
+    "prix": 0,
+    "valeur": "<gradient:#f2d479:#ff8a4c>🎲 Favori du Bookmaker</gradient>",
+    "monnaie": "PIECES",
+    "icone": "gold_ingot"
+  },
+  {
+    "id": "titre_kamikaze",
+    "categorie": "TITRE",
+    "nom": "☠ Kamikaze",
+    "prix": 0,
+    "valeur": "<gradient:#ff4c3b:#ffcf4c>☠ Kamikaze</gradient>",
+    "monnaie": "PIECES",
+    "icone": "tnt"
+  },
+  {
+    "id": "titre_habitue_port",
+    "categorie": "TITRE",
+    "nom": "⚓ Habitué du Port",
+    "prix": 0,
+    "valeur": "<gradient:#6b8fa8:#c9c9c9>⚓ Habitué du Port</gradient>",
+    "monnaie": "PIECES",
+    "icone": "iron_shovel"
+  },
+  {
+    "id": "titre_archiviste_port",
+    "categorie": "TITRE",
+    "nom": "📜 Archiviste du Port",
+    "prix": 0,
+    "valeur": "<gradient:#7fd6e8:#e8f4ff>📜 Archiviste du Port</gradient>",
+    "monnaie": "PIECES",
+    "icone": "bookshelf"
+  },
+  {
+    "id": "titre_rescape",
+    "categorie": "TITRE",
+    "nom": "🌊 Rescapé de la Mer Blanche",
+    "prix": 0,
+    "valeur": "<gradient:#4c8fb8:#bfe6f2>🌊 Rescapé de la Mer Blanche</gradient>",
+    "monnaie": "PIECES",
+    "icone": "rotten_flesh"
+  },
+  {
+    "id": "titre_voix_conseil",
+    "categorie": "TITRE",
+    "nom": "⚖ Voix du Conseil",
+    "prix": 0,
+    "valeur": "<gradient:#d9c27a:#fff3c4>⚖ Voix du Conseil</gradient>",
+    "monnaie": "PIECES",
+    "icone": "golden_helmet"
+  },
+  {
+    "id": "titre_chronique",
+    "categorie": "TITRE",
+    "nom": "📜 Chroniqué",
+    "prix": 0,
+    "valeur": "<gradient:#c9a45c:#f2d479>📜 Chroniqué</gradient>",
+    "monnaie": "AMES",
+    "icone": "writable_book"
+  },
+  {
+    "id": "titre_abysses",
+    "categorie": "TITRE",
+    "nom": "⚓ Maître des Abysses",
+    "prix": 0,
+    "valeur": "<gradient:#005c8a:#4cd3ff>⚓ Maître des Abysses</gradient>",
+    "monnaie": "AMES",
+    "icone": "prismarine_shard"
+  },
+  {
+    "id": "titre_foreur",
+    "categorie": "TITRE",
+    "nom": "⛏ Foreur des Enfers",
+    "prix": 0,
+    "valeur": "<gradient:#ff4c3b:#7a1f1f>⛏ Foreur des Enfers</gradient>",
+    "monnaie": "AMES",
+    "icone": "netherite_pickaxe"
+  },
+  {
+    "id": "titre_transmutateur",
+    "categorie": "TITRE",
+    "nom": "⚗ Grand Transmutateur",
+    "prix": 0,
+    "valeur": "<gradient:#9c6eff:#ff6eb4>⚗ Grand Transmutateur</gradient>",
+    "monnaie": "AMES",
+    "icone": "brewing_stand"
+  },
+  {
+    "id": "titre_marechal",
+    "categorie": "TITRE",
+    "nom": "⚔ Maréchal de la Citadelle",
+    "prix": 0,
+    "valeur": "<gradient:#f2d479:#ffcf6e>⚔ Maréchal de la Citadelle</gradient>",
+    "monnaie": "AMES",
+    "icone": "netherite_sword"
+  },
+  {
+    "id": "titre_mythique",
+    "categorie": "TITRE",
+    "nom": "☠ Traqueur Mythique",
+    "prix": 0,
+    "valeur": "<gradient:#ff3b30:#4a0000>☠ Traqueur Mythique</gradient>",
+    "monnaie": "AMES",
+    "icone": "dragon_head"
+  },
+  {
+    "id": "titre_archives",
+    "categorie": "TITRE",
+    "nom": "📜 Grand Maître des Archives",
+    "prix": 0,
+    "valeur": "<gradient:#f2d479:#ffffff:#b46eff>📜 Grand Maître des Archives</gradient>",
+    "monnaie": "AMES",
+    "icone": "writable_book"
+  },
+  {
+    "id": "titre_warden",
+    "categorie": "TITRE",
+    "nom": "♥ Cœur du Warden",
+    "prix": 0,
+    "valeur": "<gradient:#0fa3b1:#1c3b5a>♥ Cœur du Warden</gradient>",
+    "monnaie": "PIECES",
+    "icone": "sculk_shrieker"
+  },
+  {
+    "id": "titre_cauchemar",
+    "categorie": "TITRE",
+    "nom": "☠ Cauchemar",
+    "prix": 0,
+    "valeur": "<gradient:#8b0000:#ff4c3b>☠ Cauchemar</gradient>",
+    "monnaie": "AMES",
+    "icone": "netherite_sword"
+  },
+  {
+    "id": "titre_ascese",
+    "categorie": "TITRE",
+    "nom": "⛨ Ascète",
+    "prix": 0,
+    "valeur": "<gradient:#6b3fa0:#e8d9ff>⛨ Ascète</gradient>",
+    "monnaie": "AMES",
+    "icone": "totem_of_undying"
+  },
+  {
+    "id": "titre_fouineur",
+    "categorie": "TITRE",
+    "nom": "🔍 Fouineur",
+    "prix": 0,
+    "valeur": "<#c9a45c>🔍 Fouineur",
+    "monnaie": "AMES",
+    "icone": "spyglass"
+  },
+  {
+    "id": "titre_arene",
+    "categorie": "TITRE",
+    "nom": "⚔ Roi de l'arène",
+    "prix": 0,
+    "valeur": "<gradient:#ff8a4c:#ffcf4c>⚔ Roi de l'arène</gradient>",
+    "monnaie": "AMES",
+    "icone": "creeper_head"
+  },
+  {
+    "id": "titre_enfilade",
+    "categorie": "TITRE",
+    "nom": "➶ Enfilade",
+    "prix": 0,
+    "valeur": "<gradient:#9ce8ff:#4cff9c>➶ Enfilade</gradient>",
+    "monnaie": "AMES",
+    "icone": "spectral_arrow"
+  },
+  {
+    "id": "titre_forteresse",
+    "categorie": "TITRE",
+    "nom": "♜ Forteresse",
+    "prix": 0,
+    "valeur": "<gradient:#8fbf8a:#3f7f3a>♜ Forteresse</gradient>",
+    "monnaie": "PIECES",
+    "icone": "obsidian"
+  },
+  {
+    "id": "titre_invaincu",
+    "categorie": "TITRE",
+    "nom": "⚡ Invaincu",
+    "prix": 0,
+    "valeur": "<gradient:#fff35f:#ff5f5f>⚡ Invaincu</gradient>",
+    "monnaie": "PIECES",
+    "icone": "diamond_sword"
+  },
+  {
+    "id": "titre_extraction100",
+    "categorie": "TITRE",
+    "nom": "☠ Légende de Lethal Craft",
+    "prix": 0,
+    "valeur": "<gradient:#ff8a4c:#c9c9c9>☠ Légende de Lethal Craft</gradient>",
+    "monnaie": "PIECES",
+    "icone": "netherite_helmet"
+  },
+  {
+    "id": "titre_fleau_divin",
+    "categorie": "TITRE",
+    "nom": "⚡ Fléau Divin",
+    "prix": 0,
+    "valeur": "<gradient:#ff2a2a:#ffd700:#ff2a2a>⚡ Fléau Divin</gradient>",
+    "monnaie": "AMES",
+    "icone": "nether_star"
+  },
+  {
+    "id": "titre_dracologue",
+    "categorie": "TITRE",
+    "nom": "🐉 Dracologue",
+    "prix": 0,
+    "valeur": "<gradient:#3f7f3a:#ffcf4c>🐉 Dracologue</gradient>",
+    "monnaie": "AMES",
+    "icone": "dragon_breath"
+  },
+  {
+    "id": "titre_maitrise",
+    "categorie": "TITRE",
+    "nom": "⚔ Maître d'armes",
+    "prix": 0,
+    "valeur": "<gradient:#c9c9c9:#f2d479:#c9c9c9>⚔ Maître d'armes</gradient>",
+    "monnaie": "AMES",
+    "icone": "netherite_sword"
+  },
+  {
+    "id": "titre_prestige_chevalier",
+    "categorie": "TITRE",
+    "nom": "★ Paladin",
+    "prix": 0,
+    "valeur": "<gradient:#f2d479:#ffffff>★ Paladin</gradient>",
+    "monnaie": "AMES",
+    "icone": "shield"
+  },
+  {
+    "id": "titre_prestige_archere",
+    "categorie": "TITRE",
+    "nom": "★ Faucon Noir",
+    "prix": 0,
+    "valeur": "<gradient:#2f6b2f:#9fd8ff>★ Faucon Noir</gradient>",
+    "monnaie": "AMES",
+    "icone": "bow"
+  },
+  {
+    "id": "titre_prestige_mage",
+    "categorie": "TITRE",
+    "nom": "★ Archi-Mage",
+    "prix": 0,
+    "valeur": "<gradient:#9c6eff:#ff6eb4>★ Archi-Mage</gradient>",
+    "monnaie": "AMES",
+    "icone": "blaze_rod"
+  },
+  {
+    "id": "titre_prestige_soigneur",
+    "categorie": "TITRE",
+    "nom": "★ Grand Prélat",
+    "prix": 0,
+    "valeur": "<gradient:#ffffff:#f2d479>★ Grand Prélat</gradient>",
+    "monnaie": "AMES",
+    "icone": "glistering_melon_slice"
+  },
+  {
+    "id": "titre_prestige_gladiateur",
+    "categorie": "TITRE",
+    "nom": "★ Champion Éternel",
+    "prix": 0,
+    "valeur": "<gradient:#ff4c3b:#f2d479>★ Champion Éternel</gradient>",
+    "monnaie": "AMES",
+    "icone": "trident"
+  },
+  {
+    "id": "titre_prestige_brute",
+    "categorie": "TITRE",
+    "nom": "★ Colosse des Arènes",
+    "prix": 0,
+    "valeur": "<gradient:#7a1f1f:#ff8a4c>★ Colosse des Arènes</gradient>",
+    "monnaie": "AMES",
+    "icone": "netherite_axe"
+  },
+  {
+    "id": "titre_prestige_tireur",
+    "categorie": "TITRE",
+    "nom": "★ Maître Tireur",
+    "prix": 0,
+    "valeur": "<gradient:#2f6b2f:#f2d479>★ Maître Tireur</gradient>",
+    "monnaie": "AMES",
+    "icone": "crossbow"
+  },
+  {
+    "id": "titre_prestige_pyromane",
+    "categorie": "TITRE",
+    "nom": "★ Seigneur des Cendres",
+    "prix": 0,
+    "valeur": "<gradient:#ff8a4c:#7a1f1f>★ Seigneur des Cendres</gradient>",
+    "monnaie": "AMES",
+    "icone": "magma_cream"
+  },
+  {
+    "id": "titre_prestige_assassin",
+    "categorie": "TITRE",
+    "nom": "★ Maître des Ombres",
+    "prix": 0,
+    "valeur": "<gradient:#3b1d5c:#b46eff>★ Maître des Ombres</gradient>",
+    "monnaie": "AMES",
+    "icone": "ender_eye"
+  },
+  {
+    "id": "titre_emissaire",
+    "categorie": "TITRE",
+    "nom": "✦ Émissaire des Mondes",
+    "prix": 0,
+    "valeur": "<gradient:#4cd3ff:#9c6eff:#ffcf6e>✦ Émissaire des Mondes</gradient>",
+    "monnaie": "PIECES",
+    "icone": "compass"
+  },
+  {
+    "id": "titre_eclaireur",
+    "categorie": "TITRE",
+    "nom": "✦ Éclaireur des Mondes",
+    "prix": 0,
+    "valeur": "<gradient:#4cd3ff:#ffcf6e>✦ Éclaireur des Mondes</gradient>",
+    "monnaie": "PIECES",
+    "icone": "compass"
+  },
+  {
+    "id": "titre_briseur_givre",
+    "categorie": "TITRE",
+    "nom": "❄ Briseur de Givre",
+    "prix": 0,
+    "valeur": "<gradient:#9fd8ff:#b46eff>❄ Briseur de Givre</gradient>",
+    "monnaie": "PIECES",
+    "icone": "blue_ice"
+  },
+  {
+    "id": "couleur_ames",
+    "categorie": "COULEUR",
+    "nom": "Dégradé des Âmes",
+    "prix": 9000,
+    "valeur": "<gradient:#b46eff:#6effd8>{n}</gradient>",
+    "monnaie": "AMES",
+    "icone": "soul_lantern"
+  },
+  {
+    "id": "pack_starter",
+    "categorie": "FETE",
+    "nom": "Pack Découverte · Zombie",
+    "prix": 500,
+    "valeur": "hats.zombie,pets.zombie,projectileeffects.slime",
+    "monnaie": "GEMMES",
+    "icone": "zombie_head"
+  },
+  {
+    "id": "pack_sabbat",
+    "categorie": "FETE",
+    "nom": "Pack Sabbat",
+    "prix": 1550,
+    "valeur": "hats.witch,pets.witch,projectileeffects.witch,mounts.spider,gadgets.batblaster",
+    "monnaie": "GEMMES",
+    "icone": "jack_o_lantern"
+  },
+  {
+    "id": "pack_grandfroid",
+    "categorie": "FETE",
+    "nom": "Pack Grand Froid",
+    "prix": 1600,
+    "valeur": "hats.snowfox,particleeffects.frostlord,particleeffects.snowfootprints,projectileeffects.snowflake,gadgets.freezecannon",
+    "monnaie": "GEMMES",
+    "icone": "snowball"
+  },
+  {
+    "id": "pack_abysses",
+    "categorie": "FETE",
+    "nom": "Pack des Abysses",
+    "prix": 1550,
+    "valeur": "hats.axolotlblue,pets.dolphin,pets.turtle,mounts.mountofwater,projectileeffects.water",
+    "monnaie": "GEMMES",
+    "icone": "heart_of_the_sea"
+  },
+  {
+    "id": "pack_cosmos",
+    "categorie": "FETE",
+    "nom": "Pack Cosmos",
+    "prix": 2450,
+    "valeur": "suits.astronaut.*,hats.astronaut,pets.enderman,particleeffects.enderaura,gadgets.portalgun,projectileeffects.portal",
+    "monnaie": "GEMMES",
+    "icone": "end_crystal"
+  },
+  {
+    "id": "pack_infernal",
+    "categorie": "FETE",
+    "nom": "Pack Infernal",
+    "prix": 2550,
+    "valeur": "hats.blaze,pets.blaze,mounts.infernalhorror,particleeffects.flamerings,deatheffects.flames,projectileeffects.flamehelix",
+    "monnaie": "GEMMES",
+    "icone": "blaze_powder"
+  },
+  {
+    "id": "pet_skeleton",
+    "categorie": "UC_FAMILIER",
+    "nom": "Familier Squelette",
+    "prix": 15000,
+    "valeur": "pets.skeleton",
+    "monnaie": "AMES",
+    "icone": "skeleton_skull"
+  },
+  {
+    "id": "pet_zombie",
+    "categorie": "UC_FAMILIER",
+    "nom": "Familier Zombie",
+    "prix": 15000,
+    "valeur": "pets.zombie",
+    "monnaie": "AMES",
+    "icone": "zombie_head"
+  },
+  {
+    "id": "pet_irongolem",
+    "categorie": "UC_FAMILIER",
+    "nom": "Familier Golem",
+    "prix": 150000,
+    "valeur": "pets.irongolem",
+    "monnaie": "PIECES",
+    "icone": "iron_block"
+  },
+  {
+    "id": "titre_habitue",
+    "categorie": "TITRE",
+    "nom": "✧ Habitué",
+    "prix": 0,
+    "valeur": "<#d8d8d8>✧ Habitué",
+    "monnaie": "GEMMES",
+    "icone": "iron_ingot"
+  },
+  {
+    "id": "titre_vip",
+    "categorie": "TITRE",
+    "nom": "✔ VIP",
+    "prix": 0,
+    "valeur": "<#7fe07f>✔ VIP",
+    "monnaie": "GEMMES",
+    "icone": "emerald"
+  },
+  {
+    "id": "titre_elite",
+    "categorie": "TITRE",
+    "nom": "◆ Élite",
+    "prix": 0,
+    "valeur": "<gradient:#6fb8ff:#b46eff>◆ Élite</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "diamond"
+  },
+  {
+    "id": "couleur_elite",
+    "categorie": "COULEUR",
+    "nom": "Dégradé Élite",
+    "prix": 0,
+    "valeur": "<gradient:#6fb8ff:#b46eff>{n}</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "amethyst_shard"
+  },
+  {
+    "id": "titre_legende_grade",
+    "categorie": "TITRE",
+    "nom": "★ Légende",
+    "prix": 0,
+    "valeur": "<gradient:#ffcf6e:#ff8a4c>★ Légende</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "nether_star"
+  },
+  {
+    "id": "couleur_legende",
+    "categorie": "COULEUR",
+    "nom": "Or vivant (animé)",
+    "prix": 0,
+    "valeur": "<gradient:#ffcf6e:#ffffff:#ffcf6e:{p}>{n}</gradient>",
+    "monnaie": "GEMMES",
+    "icone": "gold_block"
+  },
+  {
+    "id": "uc_pets_armadillo",
+    "categorie": "UC_FAMILIER",
+    "nom": "Armadillo",
+    "prix": 450,
+    "valeur": "pets.armadillo",
+    "monnaie": "GEMMES",
+    "icone": "armadillo_spawn_egg"
+  },
+  {
+    "id": "uc_pets_piggy",
+    "categorie": "UC_FAMILIER",
+    "nom": "Cochonnet",
+    "prix": 450,
+    "valeur": "pets.piggy",
+    "monnaie": "GEMMES",
+    "icone": "pig_spawn_egg"
+  },
+  {
+    "id": "uc_pets_cow",
+    "categorie": "UC_FAMILIER",
+    "nom": "Vache",
+    "prix": 450,
+    "valeur": "pets.cow",
+    "monnaie": "GEMMES",
+    "icone": "cow_spawn_egg"
+  },
+  {
+    "id": "uc_pets_mooshroom",
+    "categorie": "UC_FAMILIER",
+    "nom": "Champimeuh",
+    "prix": 450,
+    "valeur": "pets.mooshroom",
+    "monnaie": "GEMMES",
+    "icone": "mooshroom_spawn_egg"
+  },
+  {
+    "id": "uc_pets_dog",
+    "categorie": "UC_FAMILIER",
+    "nom": "Chien",
+    "prix": 450,
+    "valeur": "pets.dog",
+    "monnaie": "GEMMES",
+    "icone": "wolf_spawn_egg"
+  },
+  {
+    "id": "uc_pets_chick",
+    "categorie": "UC_FAMILIER",
+    "nom": "Poussin",
+    "prix": 450,
+    "valeur": "pets.chick",
+    "monnaie": "GEMMES",
+    "icone": "chicken_spawn_egg"
+  },
+  {
+    "id": "uc_pets_irongolem",
+    "categorie": "UC_FAMILIER",
+    "nom": "Golem de fer",
+    "prix": 700,
+    "valeur": "pets.irongolem",
+    "monnaie": "GEMMES",
+    "icone": "iron_golem_spawn_egg"
+  },
+  {
+    "id": "uc_pets_villager",
+    "categorie": "UC_FAMILIER",
+    "nom": "Villageois",
+    "prix": 450,
+    "valeur": "pets.villager",
+    "monnaie": "GEMMES",
+    "icone": "villager_spawn_egg"
+  },
+  {
+    "id": "uc_pets_bat",
+    "categorie": "UC_FAMILIER",
+    "nom": "Chauves-Souris",
+    "prix": 450,
+    "valeur": "pets.bat",
+    "monnaie": "GEMMES",
+    "icone": "bat_spawn_egg"
+  },
+  {
+    "id": "uc_pets_sheep",
+    "categorie": "UC_FAMILIER",
+    "nom": "Mouton",
+    "prix": 450,
+    "valeur": "pets.sheep",
+    "monnaie": "GEMMES",
+    "icone": "sheep_spawn_egg"
+  },
+  {
+    "id": "uc_pets_wither",
+    "categorie": "UC_FAMILIER",
+    "nom": "Wither",
+    "prix": 1100,
+    "valeur": "pets.wither",
+    "monnaie": "GEMMES",
+    "icone": "wither_spawn_egg"
+  },
+  {
+    "id": "uc_pets_slime",
+    "categorie": "UC_FAMILIER",
+    "nom": "Slime",
+    "prix": 450,
+    "valeur": "pets.slime",
+    "monnaie": "GEMMES",
+    "icone": "slime_spawn_egg"
+  },
+  {
+    "id": "uc_pets_silverfish",
+    "categorie": "UC_FAMILIER",
+    "nom": "Poisson d'argent",
+    "prix": 450,
+    "valeur": "pets.silverfish",
+    "monnaie": "GEMMES",
+    "icone": "silverfish_spawn_egg"
+  },
+  {
+    "id": "uc_pets_blaze",
+    "categorie": "UC_FAMILIER",
+    "nom": "Blaze",
+    "prix": 450,
+    "valeur": "pets.blaze",
+    "monnaie": "GEMMES",
+    "icone": "blaze_spawn_egg"
+  },
+  {
+    "id": "uc_pets_creeper",
+    "categorie": "UC_FAMILIER",
+    "nom": "Creeper",
+    "prix": 450,
+    "valeur": "pets.creeper",
+    "monnaie": "GEMMES",
+    "icone": "creeper_spawn_egg"
+  },
+  {
+    "id": "uc_pets_enderman",
+    "categorie": "UC_FAMILIER",
+    "nom": "Enderman",
+    "prix": 450,
+    "valeur": "pets.enderman",
+    "monnaie": "GEMMES",
+    "icone": "enderman_spawn_egg"
+  },
+  {
+    "id": "uc_pets_skeleton",
+    "categorie": "UC_FAMILIER",
+    "nom": "Squelette",
+    "prix": 450,
+    "valeur": "pets.skeleton",
+    "monnaie": "GEMMES",
+    "icone": "skeleton_spawn_egg"
+  },
+  {
+    "id": "uc_pets_zombie",
+    "categorie": "UC_FAMILIER",
+    "nom": "Zombie",
+    "prix": 450,
+    "valeur": "pets.zombie",
+    "monnaie": "GEMMES",
+    "icone": "zombie_spawn_egg"
+  },
+  {
+    "id": "uc_pets_cavespider",
+    "categorie": "UC_FAMILIER",
+    "nom": "Araignée des cavernes",
+    "prix": 450,
+    "valeur": "pets.cavespider",
+    "monnaie": "GEMMES",
+    "icone": "cave_spider_spawn_egg"
+  },
+  {
+    "id": "uc_pets_spider",
+    "categorie": "UC_FAMILIER",
+    "nom": "Araignée",
+    "prix": 450,
+    "valeur": "pets.spider",
+    "monnaie": "GEMMES",
+    "icone": "spider_spawn_egg"
+  },
+  {
+    "id": "uc_pets_endermite",
+    "categorie": "UC_FAMILIER",
+    "nom": "Endermite",
+    "prix": 450,
+    "valeur": "pets.endermite",
+    "monnaie": "GEMMES",
+    "icone": "endermite_spawn_egg"
+  },
+  {
+    "id": "uc_pets_guardian",
+    "categorie": "UC_FAMILIER",
+    "nom": "Gardien",
+    "prix": 450,
+    "valeur": "pets.guardian",
+    "monnaie": "GEMMES",
+    "icone": "guardian_spawn_egg"
+  },
+  {
+    "id": "uc_pets_magmacube",
+    "categorie": "UC_FAMILIER",
+    "nom": "Magma Cube",
+    "prix": 450,
+    "valeur": "pets.magmacube",
+    "monnaie": "GEMMES",
+    "icone": "magma_cube_spawn_egg"
+  },
+  {
+    "id": "uc_pets_witch",
+    "categorie": "UC_FAMILIER",
+    "nom": "Sorcière",
+    "prix": 450,
+    "valeur": "pets.witch",
+    "monnaie": "GEMMES",
+    "icone": "witch_spawn_egg"
+  },
+  {
+    "id": "uc_pets_horse",
+    "categorie": "UC_FAMILIER",
+    "nom": "Cheval",
+    "prix": 450,
+    "valeur": "pets.horse",
+    "monnaie": "GEMMES",
+    "icone": "horse_spawn_egg"
+  },
+  {
+    "id": "uc_pets_sniffer",
+    "categorie": "UC_FAMILIER",
+    "nom": "Renifleur (Légende)",
+    "prix": 0,
+    "valeur": "pets.sniffer",
+    "monnaie": "GEMMES",
+    "icone": "sniffer_spawn_egg"
+  },
+  {
+    "id": "uc_pets_frog",
+    "categorie": "UC_FAMILIER",
+    "nom": "Grenouille",
+    "prix": 450,
+    "valeur": "pets.frog",
+    "monnaie": "GEMMES",
+    "icone": "frog_spawn_egg"
+  },
+  {
+    "id": "uc_pets_warden",
+    "categorie": "UC_FAMILIER",
+    "nom": "Warden",
+    "prix": 1100,
+    "valeur": "pets.warden",
+    "monnaie": "GEMMES",
+    "icone": "warden_spawn_egg"
+  },
+  {
+    "id": "uc_pets_allay",
+    "categorie": "UC_FAMILIER",
+    "nom": "Allay",
+    "prix": 600,
+    "valeur": "pets.allay",
+    "monnaie": "GEMMES",
+    "icone": "allay_spawn_egg"
+  },
+  {
+    "id": "uc_pets_tadpole",
+    "categorie": "UC_FAMILIER",
+    "nom": "Têtard",
+    "prix": 450,
+    "valeur": "pets.tadpole",
+    "monnaie": "GEMMES",
+    "icone": "tadpole_spawn_egg"
+  },
+  {
+    "id": "uc_pets_goat",
+    "categorie": "UC_FAMILIER",
+    "nom": "Chèvre",
+    "prix": 450,
+    "valeur": "pets.goat",
+    "monnaie": "GEMMES",
+    "icone": "goat_spawn_egg"
+  },
+  {
+    "id": "uc_pets_axolotl",
+    "categorie": "UC_FAMILIER",
+    "nom": "Axolotl",
+    "prix": 450,
+    "valeur": "pets.axolotl",
+    "monnaie": "GEMMES",
+    "icone": "axolotl_spawn_egg"
+  },
+  {
+    "id": "uc_pets_piglin",
+    "categorie": "UC_FAMILIER",
+    "nom": "Marchand d'or",
+    "prix": 450,
+    "valeur": "pets.piglin",
+    "monnaie": "GEMMES",
+    "icone": "piglin_spawn_egg"
+  },
+  {
+    "id": "uc_pets_strider",
+    "categorie": "UC_FAMILIER",
+    "nom": "Arpenteur",
+    "prix": 450,
+    "valeur": "pets.strider",
+    "monnaie": "GEMMES",
+    "icone": "strider_spawn_egg"
+  },
+  {
+    "id": "uc_pets_hoglin",
+    "categorie": "UC_FAMILIER",
+    "nom": "Hoglin",
+    "prix": 450,
+    "valeur": "pets.hoglin",
+    "monnaie": "GEMMES",
+    "icone": "hoglin_spawn_egg"
+  },
+  {
+    "id": "uc_pets_piglinbrute",
+    "categorie": "UC_FAMILIER",
+    "nom": "Piglin Brute",
+    "prix": 450,
+    "valeur": "pets.piglinbrute",
+    "monnaie": "GEMMES",
+    "icone": "piglin_brute_spawn_egg"
+  },
+  {
+    "id": "uc_pets_zoglin",
+    "categorie": "UC_FAMILIER",
+    "nom": "Zoglin",
+    "prix": 450,
+    "valeur": "pets.zoglin",
+    "monnaie": "GEMMES",
+    "icone": "zoglin_spawn_egg"
+  },
+  {
+    "id": "uc_pets_zombifiedpiglin",
+    "categorie": "UC_FAMILIER",
+    "nom": "Cochon Zombifié",
+    "prix": 450,
+    "valeur": "pets.zombifiedpiglin",
+    "monnaie": "GEMMES",
+    "icone": "zombified_piglin_spawn_egg"
+  },
+  {
+    "id": "uc_pets_bee",
+    "categorie": "UC_FAMILIER",
+    "nom": "Abeille",
+    "prix": 450,
+    "valeur": "pets.bee",
+    "monnaie": "GEMMES",
+    "icone": "bee_spawn_egg"
+  },
+  {
+    "id": "uc_pets_panda",
+    "categorie": "UC_FAMILIER",
+    "nom": "Panda (Élite)",
+    "prix": 0,
+    "valeur": "pets.panda",
+    "monnaie": "GEMMES",
+    "icone": "panda_spawn_egg"
+  },
+  {
+    "id": "uc_pets_fox",
+    "categorie": "UC_FAMILIER",
+    "nom": "Renard",
+    "prix": 450,
+    "valeur": "pets.fox",
+    "monnaie": "GEMMES",
+    "icone": "fox_spawn_egg"
+  },
+  {
+    "id": "uc_pets_kitty",
+    "categorie": "UC_FAMILIER",
+    "nom": "Chaton",
+    "prix": 450,
+    "valeur": "pets.kitty",
+    "monnaie": "GEMMES",
+    "icone": "cat_spawn_egg"
+  },
+  {
+    "id": "uc_pets_ocelot",
+    "categorie": "UC_FAMILIER",
+    "nom": "Ocelot",
+    "prix": 450,
+    "valeur": "pets.ocelot",
+    "monnaie": "GEMMES",
+    "icone": "ocelot_spawn_egg"
+  },
+  {
+    "id": "uc_pets_wanderingtrader",
+    "categorie": "UC_FAMILIER",
+    "nom": "Marchand errant",
+    "prix": 450,
+    "valeur": "pets.wanderingtrader",
+    "monnaie": "GEMMES",
+    "icone": "wandering_trader_spawn_egg"
+  },
+  {
+    "id": "uc_pets_pillager",
+    "categorie": "UC_FAMILIER",
+    "nom": "Pilleur",
+    "prix": 450,
+    "valeur": "pets.pillager",
+    "monnaie": "GEMMES",
+    "icone": "pillager_spawn_egg"
+  },
+  {
+    "id": "uc_pets_ravager",
+    "categorie": "UC_FAMILIER",
+    "nom": "Ravageur",
+    "prix": 800,
+    "valeur": "pets.ravager",
+    "monnaie": "GEMMES",
+    "icone": "ravager_spawn_egg"
+  },
+  {
+    "id": "uc_pets_cod",
+    "categorie": "UC_FAMILIER",
+    "nom": "Morue",
+    "prix": 450,
+    "valeur": "pets.cod",
+    "monnaie": "GEMMES",
+    "icone": "cod_spawn_egg"
+  },
+  {
+    "id": "uc_pets_pufferfish",
+    "categorie": "UC_FAMILIER",
+    "nom": "Poisson-globe",
+    "prix": 450,
+    "valeur": "pets.pufferfish",
+    "monnaie": "GEMMES",
+    "icone": "pufferfish_spawn_egg"
+  },
+  {
+    "id": "uc_pets_salmon",
+    "categorie": "UC_FAMILIER",
+    "nom": "Saumon",
+    "prix": 450,
+    "valeur": "pets.salmon",
+    "monnaie": "GEMMES",
+    "icone": "salmon_spawn_egg"
+  },
+  {
+    "id": "uc_pets_tropicalfish",
+    "categorie": "UC_FAMILIER",
+    "nom": "Poissons tropicaux",
+    "prix": 450,
+    "valeur": "pets.tropicalfish",
+    "monnaie": "GEMMES",
+    "icone": "tropical_fish_spawn_egg"
+  },
+  {
+    "id": "uc_pets_turtle",
+    "categorie": "UC_FAMILIER",
+    "nom": "Tortue",
+    "prix": 450,
+    "valeur": "pets.turtle",
+    "monnaie": "GEMMES",
+    "icone": "turtle_spawn_egg"
+  },
+  {
+    "id": "uc_pets_dolphin",
+    "categorie": "UC_FAMILIER",
+    "nom": "Dauphin",
+    "prix": 450,
+    "valeur": "pets.dolphin",
+    "monnaie": "GEMMES",
+    "icone": "dolphin_spawn_egg"
+  },
+  {
+    "id": "uc_pets_drowned",
+    "categorie": "UC_FAMILIER",
+    "nom": "Noyé",
+    "prix": 450,
+    "valeur": "pets.drowned",
+    "monnaie": "GEMMES",
+    "icone": "drowned_spawn_egg"
+  },
+  {
+    "id": "uc_pets_parrot",
+    "categorie": "UC_FAMILIER",
+    "nom": "Perroquet",
+    "prix": 450,
+    "valeur": "pets.parrot",
+    "monnaie": "GEMMES",
+    "icone": "parrot_spawn_egg"
+  },
+  {
+    "id": "uc_pets_illusioner",
+    "categorie": "UC_FAMILIER",
+    "nom": "Illusionniste",
+    "prix": 450,
+    "valeur": "pets.illusioner",
+    "monnaie": "GEMMES",
+    "icone": "tipped_arrow"
+  },
+  {
+    "id": "uc_pets_llama",
+    "categorie": "UC_FAMILIER",
+    "nom": "Lama",
+    "prix": 450,
+    "valeur": "pets.llama",
+    "monnaie": "GEMMES",
+    "icone": "llama_spawn_egg"
+  },
+  {
+    "id": "uc_pets_vex",
+    "categorie": "UC_FAMILIER",
+    "nom": "Vex",
+    "prix": 450,
+    "valeur": "pets.vex",
+    "monnaie": "GEMMES",
+    "icone": "vex_spawn_egg"
+  },
+  {
+    "id": "uc_pets_evoker",
+    "categorie": "UC_FAMILIER",
+    "nom": "Évocateur",
+    "prix": 450,
+    "valeur": "pets.evoker",
+    "monnaie": "GEMMES",
+    "icone": "evoker_spawn_egg"
+  },
+  {
+    "id": "uc_pets_vindicator",
+    "categorie": "UC_FAMILIER",
+    "nom": "Vindicateur",
+    "prix": 450,
+    "valeur": "pets.vindicator",
+    "monnaie": "GEMMES",
+    "icone": "vindicator_spawn_egg"
+  },
+  {
+    "id": "uc_pets_donkey",
+    "categorie": "UC_FAMILIER",
+    "nom": "Âne",
+    "prix": 450,
+    "valeur": "pets.donkey",
+    "monnaie": "GEMMES",
+    "icone": "donkey_spawn_egg"
+  },
+  {
+    "id": "uc_pets_mule",
+    "categorie": "UC_FAMILIER",
+    "nom": "Mule",
+    "prix": 450,
+    "valeur": "pets.mule",
+    "monnaie": "GEMMES",
+    "icone": "mule_spawn_egg"
+  },
+  {
+    "id": "uc_pets_skeletonhorse",
+    "categorie": "UC_FAMILIER",
+    "nom": "Cheval Squelette",
+    "prix": 450,
+    "valeur": "pets.skeletonhorse",
+    "monnaie": "GEMMES",
+    "icone": "skeleton_horse_spawn_egg"
+  },
+  {
+    "id": "uc_pets_zombiehorse",
+    "categorie": "UC_FAMILIER",
+    "nom": "Cheval Zombie",
+    "prix": 450,
+    "valeur": "pets.zombiehorse",
+    "monnaie": "GEMMES",
+    "icone": "zombie_horse_spawn_egg"
+  },
+  {
+    "id": "uc_pets_elderguardian",
+    "categorie": "UC_FAMILIER",
+    "nom": "Grand Gardien",
+    "prix": 1000,
+    "valeur": "pets.elderguardian",
+    "monnaie": "GEMMES",
+    "icone": "elder_guardian_spawn_egg"
+  },
+  {
+    "id": "uc_pets_witherskeleton",
+    "categorie": "UC_FAMILIER",
+    "nom": "Squelette Wither",
+    "prix": 450,
+    "valeur": "pets.witherskeleton",
+    "monnaie": "GEMMES",
+    "icone": "wither_skeleton_spawn_egg"
+  },
+  {
+    "id": "uc_pets_zombievillager",
+    "categorie": "UC_FAMILIER",
+    "nom": "Villageois Zombie",
+    "prix": 450,
+    "valeur": "pets.zombievillager",
+    "monnaie": "GEMMES",
+    "icone": "zombie_villager_spawn_egg"
+  },
+  {
+    "id": "uc_pets_husk",
+    "categorie": "UC_FAMILIER",
+    "nom": "Zombie Momifié",
+    "prix": 450,
+    "valeur": "pets.husk",
+    "monnaie": "GEMMES",
+    "icone": "husk_spawn_egg"
+  },
+  {
+    "id": "uc_pets_stray",
+    "categorie": "UC_FAMILIER",
+    "nom": "Vagabond",
+    "prix": 450,
+    "valeur": "pets.stray",
+    "monnaie": "GEMMES",
+    "icone": "stray_spawn_egg"
+  },
+  {
+    "id": "uc_pets_polarbear",
+    "categorie": "UC_FAMILIER",
+    "nom": "Ours polaire",
+    "prix": 450,
+    "valeur": "pets.polarbear",
+    "monnaie": "GEMMES",
+    "icone": "polar_bear_spawn_egg"
+  },
+  {
+    "id": "uc_pets_shulker",
+    "categorie": "UC_FAMILIER",
+    "nom": "Shulker",
+    "prix": 600,
+    "valeur": "pets.shulker",
+    "monnaie": "GEMMES",
+    "icone": "shulker_spawn_egg"
+  },
+  {
+    "id": "uc_gadgets_batblaster",
+    "categorie": "UC_GADGET",
+    "nom": "Chauve-Souris Blaster",
+    "prix": 450,
+    "valeur": "gadgets.batblaster",
+    "monnaie": "GEMMES",
+    "icone": "bat_spawn_egg"
+  },
+  {
+    "id": "uc_gadgets_chickenator",
+    "categorie": "UC_GADGET",
+    "nom": "Lanceur de poulets",
+    "prix": 450,
+    "valeur": "gadgets.chickenator",
+    "monnaie": "GEMMES",
+    "icone": "chicken_spawn_egg"
+  },
+  {
+    "id": "uc_gadgets_discoball",
+    "categorie": "UC_GADGET",
+    "nom": "Boule Disco",
+    "prix": 600,
+    "valeur": "gadgets.discoball",
+    "monnaie": "GEMMES",
+    "icone": "sea_lantern"
+  },
+  {
+    "id": "uc_gadgets_etherealpearl",
+    "categorie": "UC_GADGET",
+    "nom": "Perle éthérée",
+    "prix": 450,
+    "valeur": "gadgets.etherealpearl",
+    "monnaie": "GEMMES",
+    "icone": "ender_pearl"
+  },
+  {
+    "id": "uc_gadgets_fleshhook",
+    "categorie": "UC_GADGET",
+    "nom": "Crochet de chair",
+    "prix": 450,
+    "valeur": "gadgets.fleshhook",
+    "monnaie": "GEMMES",
+    "icone": "fishing_rod"
+  },
+  {
+    "id": "uc_gadgets_melonthrower",
+    "categorie": "UC_GADGET",
+    "nom": "Lanceur de Melon",
+    "prix": 450,
+    "valeur": "gadgets.melonthrower",
+    "monnaie": "GEMMES",
+    "icone": "melon_slice"
+  },
+  {
+    "id": "uc_gadgets_portalgun",
+    "categorie": "UC_GADGET",
+    "nom": "Pistolet Portail",
+    "prix": 750,
+    "valeur": "gadgets.portalgun",
+    "monnaie": "GEMMES",
+    "icone": "ender_eye"
+  },
+  {
+    "id": "uc_gadgets_paintballgun",
+    "categorie": "UC_GADGET",
+    "nom": "Pistolet Paintball",
+    "prix": 450,
+    "valeur": "gadgets.paintballgun",
+    "monnaie": "GEMMES",
+    "icone": "firework_rocket"
+  },
+  {
+    "id": "uc_gadgets_thorhammer",
+    "categorie": "UC_GADGET",
+    "nom": "Marteau de Thor",
+    "prix": 700,
+    "valeur": "gadgets.thorhammer",
+    "monnaie": "GEMMES",
+    "icone": "lightning_rod"
+  },
+  {
+    "id": "uc_gadgets_antigravity",
+    "categorie": "UC_GADGET",
+    "nom": "Anti Gravité",
+    "prix": 450,
+    "valeur": "gadgets.antigravity",
+    "monnaie": "GEMMES",
+    "icone": "shulker_shell"
+  },
+  {
+    "id": "uc_gadgets_smashdown",
+    "categorie": "UC_GADGET",
+    "nom": "SmashDown",
+    "prix": 450,
+    "valeur": "gadgets.smashdown",
+    "monnaie": "GEMMES",
+    "icone": "netherite_boots"
+  },
+  {
+    "id": "uc_gadgets_rocket",
+    "categorie": "UC_GADGET",
+    "nom": "Fusée",
+    "prix": 450,
+    "valeur": "gadgets.rocket",
+    "monnaie": "GEMMES",
+    "icone": "firework_rocket"
+  },
+  {
+    "id": "uc_gadgets_tsunami",
+    "categorie": "UC_GADGET",
+    "nom": "Tsunami",
+    "prix": 450,
+    "valeur": "gadgets.tsunami",
+    "monnaie": "GEMMES",
+    "icone": "water_bucket"
+  },
+  {
+    "id": "uc_gadgets_tnt",
+    "categorie": "UC_GADGET",
+    "nom": "TNT",
+    "prix": 450,
+    "valeur": "gadgets.tnt",
+    "monnaie": "GEMMES",
+    "icone": "tnt"
+  },
+  {
+    "id": "uc_gadgets_fungun",
+    "categorie": "UC_GADGET",
+    "nom": "Fun Gun",
+    "prix": 450,
+    "valeur": "gadgets.fungun",
+    "monnaie": "GEMMES",
+    "icone": "firework_star"
+  },
+  {
+    "id": "uc_gadgets_parachute",
+    "categorie": "UC_GADGET",
+    "nom": "Parachute",
+    "prix": 450,
+    "valeur": "gadgets.parachute",
+    "monnaie": "GEMMES",
+    "icone": "white_banner"
+  },
+  {
+    "id": "uc_gadgets_firework",
+    "categorie": "UC_GADGET",
+    "nom": "Feu d'artifice",
+    "prix": 450,
+    "valeur": "gadgets.firework",
+    "monnaie": "GEMMES",
+    "icone": "firework_rocket"
+  },
+  {
+    "id": "uc_gadgets_freezecannon",
+    "categorie": "UC_GADGET",
+    "nom": "Canon à glace",
+    "prix": 450,
+    "valeur": "gadgets.freezecannon",
+    "monnaie": "GEMMES",
+    "icone": "blue_ice"
+  },
+  {
+    "id": "uc_gadgets_partypopper",
+    "categorie": "UC_GADGET",
+    "nom": "Canon à confettis",
+    "prix": 450,
+    "valeur": "gadgets.partypopper",
+    "monnaie": "GEMMES",
+    "icone": "firework_star"
+  },
+  {
+    "id": "uc_gadgets_colorbomb",
+    "categorie": "UC_GADGET",
+    "nom": "Bombe de couleur",
+    "prix": 450,
+    "valeur": "gadgets.colorbomb",
+    "monnaie": "GEMMES",
+    "icone": "magenta_dye"
+  },
+  {
+    "id": "uc_gadgets_trampoline",
+    "categorie": "UC_GADGET",
+    "nom": "Trampoline",
+    "prix": 450,
+    "valeur": "gadgets.trampoline",
+    "monnaie": "GEMMES",
+    "icone": "slime_block"
+  },
+  {
+    "id": "uc_gadgets_blackhole",
+    "categorie": "UC_GADGET",
+    "nom": "Trou Noir",
+    "prix": 800,
+    "valeur": "gadgets.blackhole",
+    "monnaie": "GEMMES",
+    "icone": "ender_chest"
+  },
+  {
+    "id": "uc_gadgets_explosivesheep",
+    "categorie": "UC_GADGET",
+    "nom": "Mouton explosif",
+    "prix": 450,
+    "valeur": "gadgets.explosivesheep",
+    "monnaie": "GEMMES",
+    "icone": "tnt_minecart"
+  },
+  {
+    "id": "uc_gadgets_blizzardblaster",
+    "categorie": "UC_GADGET",
+    "nom": "Blizzard Blaster",
+    "prix": 450,
+    "valeur": "gadgets.blizzardblaster",
+    "monnaie": "GEMMES",
+    "icone": "powder_snow_bucket"
+  },
+  {
+    "id": "uc_gadgets_quakegun",
+    "categorie": "UC_GADGET",
+    "nom": "Quake Gun",
+    "prix": 650,
+    "valeur": "gadgets.quakegun",
+    "monnaie": "GEMMES",
+    "icone": "netherite_pickaxe"
+  },
+  {
+    "id": "uc_particle_bloodhelix",
+    "categorie": "UC_PARTICULE",
+    "nom": "Hélix de Sang",
+    "prix": 0,
+    "valeur": "particleeffects.bloodhelix",
+    "monnaie": "GEMMES",
+    "icone": "redstone"
+  },
+  {
+    "id": "uc_particle_frostlord",
+    "categorie": "UC_PARTICULE",
+    "nom": "Seigneur des Glaces",
+    "prix": 1000,
+    "valeur": "particleeffects.frostlord",
+    "monnaie": "GEMMES",
+    "icone": "blue_ice"
+  },
+  {
+    "id": "uc_particle_flamerings",
+    "categorie": "UC_PARTICULE",
+    "nom": "Anneaux de flammes",
+    "prix": 900,
+    "valeur": "particleeffects.flamerings",
+    "monnaie": "GEMMES",
+    "icone": "fire_charge"
+  },
+  {
+    "id": "uc_particle_greensparks",
+    "categorie": "UC_PARTICULE",
+    "nom": "Étincelles vertes",
+    "prix": 600,
+    "valeur": "particleeffects.greensparks",
+    "monnaie": "GEMMES",
+    "icone": "lime_dye"
+  },
+  {
+    "id": "uc_particle_frozenwalk",
+    "categorie": "UC_PARTICULE",
+    "nom": "Marche gelée",
+    "prix": 600,
+    "valeur": "particleeffects.frozenwalk",
+    "monnaie": "GEMMES",
+    "icone": "snow_block"
+  },
+  {
+    "id": "uc_particle_music",
+    "categorie": "UC_PARTICULE",
+    "nom": "Musique",
+    "prix": 0,
+    "valeur": "particleeffects.music",
+    "monnaie": "GEMMES",
+    "icone": "note_block"
+  },
+  {
+    "id": "uc_particle_enchanted",
+    "categorie": "UC_PARTICULE",
+    "nom": "Enchanté (Élite)",
+    "prix": 0,
+    "valeur": "particleeffects.enchanted",
+    "monnaie": "GEMMES",
+    "icone": "enchanting_table"
+  },
+  {
+    "id": "uc_particle_inferno",
+    "categorie": "UC_PARTICULE",
+    "nom": "Infernal",
+    "prix": 0,
+    "valeur": "particleeffects.inferno",
+    "monnaie": "GEMMES",
+    "icone": "magma_block"
+  },
+  {
+    "id": "uc_particle_angelwings",
+    "categorie": "UC_PARTICULE",
+    "nom": "Ailes d'ange",
+    "prix": 0,
+    "valeur": "particleeffects.angelwings",
+    "monnaie": "GEMMES",
+    "icone": "feather"
+  },
+  {
+    "id": "uc_particle_rainbowwings",
+    "categorie": "UC_PARTICULE",
+    "nom": "Ailes arc-en-ciel",
+    "prix": 0,
+    "valeur": "particleeffects.rainbowwings",
+    "monnaie": "GEMMES",
+    "icone": "pink_dye"
+  },
+  {
+    "id": "uc_particle_superhero",
+    "categorie": "UC_PARTICULE",
+    "nom": "Super Héros",
+    "prix": 0,
+    "valeur": "particleeffects.superhero",
+    "monnaie": "GEMMES",
+    "icone": "golden_chestplate"
+  },
+  {
+    "id": "uc_particle_enderaura",
+    "categorie": "UC_PARTICULE",
+    "nom": "Ender Aura",
+    "prix": 600,
+    "valeur": "particleeffects.enderaura",
+    "monnaie": "GEMMES",
+    "icone": "end_rod"
+  },
+  {
+    "id": "uc_particle_flamefairy",
+    "categorie": "UC_PARTICULE",
+    "nom": "Fée des flammes",
+    "prix": 600,
+    "valeur": "particleeffects.flamefairy",
+    "monnaie": "GEMMES",
+    "icone": "torchflower"
+  },
+  {
+    "id": "uc_particle_raincloud",
+    "categorie": "UC_PARTICULE",
+    "nom": "Nuage de Pluie",
+    "prix": 600,
+    "valeur": "particleeffects.raincloud",
+    "monnaie": "GEMMES",
+    "icone": "water_bucket"
+  },
+  {
+    "id": "uc_particle_magicalrods",
+    "categorie": "UC_PARTICULE",
+    "nom": "Barres magiques",
+    "prix": 600,
+    "valeur": "particleeffects.magicalrods",
+    "monnaie": "GEMMES",
+    "icone": "brewing_stand"
+  },
+  {
+    "id": "uc_particle_firewaves",
+    "categorie": "UC_PARTICULE",
+    "nom": "Vagues de feu",
+    "prix": 600,
+    "valeur": "particleeffects.firewaves",
+    "monnaie": "GEMMES",
+    "icone": "campfire"
+  },
+  {
+    "id": "uc_particle_cursedhalo",
+    "categorie": "UC_PARTICULE",
+    "nom": "Halo maudit",
+    "prix": 900,
+    "valeur": "particleeffects.cursedhalo",
+    "monnaie": "GEMMES",
+    "icone": "wither_rose"
+  },
+  {
+    "id": "uc_particle_volcanichalo",
+    "categorie": "UC_PARTICULE",
+    "nom": "Halo volcanique",
+    "prix": 900,
+    "valeur": "particleeffects.volcanichalo",
+    "monnaie": "GEMMES",
+    "icone": "magma_cream"
+  },
+  {
+    "id": "uc_particle_cursedfootprints",
+    "categorie": "UC_PARTICULE",
+    "nom": "Empreintes maudites",
+    "prix": 350,
+    "valeur": "particleeffects.cursedfootprints",
+    "monnaie": "GEMMES",
+    "icone": "soul_sand"
+  },
+  {
+    "id": "uc_particle_shadowfootprints",
+    "categorie": "UC_PARTICULE",
+    "nom": "Empreintes fantômes",
+    "prix": 350,
+    "valeur": "particleeffects.shadowfootprints",
+    "monnaie": "GEMMES",
+    "icone": "black_dye"
+  },
+  {
+    "id": "uc_particle_notes",
+    "categorie": "UC_PARTICULE",
+    "nom": "Notes",
+    "prix": 300,
+    "valeur": "particleeffects.notes",
+    "monnaie": "GEMMES",
+    "icone": "music_disc_cat"
+  },
+  {
+    "id": "uc_particle_hearts",
+    "categorie": "UC_PARTICULE",
+    "nom": "Coeurs",
+    "prix": 600,
+    "valeur": "particleeffects.hearts",
+    "monnaie": "GEMMES",
+    "icone": "poppy"
+  },
+  {
+    "id": "uc_particle_enderfootprints",
+    "categorie": "UC_PARTICULE",
+    "nom": "Empreintes de L'end",
+    "prix": 350,
+    "valeur": "particleeffects.enderfootprints",
+    "monnaie": "GEMMES",
+    "icone": "chorus_fruit"
+  },
+  {
+    "id": "uc_particle_arcaneflame",
+    "categorie": "UC_PARTICULE",
+    "nom": "Flamme arcanique",
+    "prix": 800,
+    "valeur": "particleeffects.arcaneflame",
+    "monnaie": "GEMMES",
+    "icone": "amethyst_shard"
+  },
+  {
+    "id": "uc_particle_divinehalo",
+    "categorie": "UC_PARTICULE",
+    "nom": "Halo divin (Légende)",
+    "prix": 0,
+    "valeur": "particleeffects.divinehalo",
+    "monnaie": "GEMMES",
+    "icone": "glowstone"
+  },
+  {
+    "id": "uc_particle_snowfootprints",
+    "categorie": "UC_PARTICULE",
+    "nom": "Empreintes de neige",
+    "prix": 350,
+    "valeur": "particleeffects.snowfootprints",
+    "monnaie": "GEMMES",
+    "icone": "snowball"
+  },
+  {
+    "id": "uc_particle_supervillain",
+    "categorie": "UC_PARTICULE",
+    "nom": "Super Méchant",
+    "prix": 1100,
+    "valeur": "particleeffects.supervillain",
+    "monnaie": "GEMMES",
+    "icone": "dragon_head"
+  },
+  {
+    "id": "uc_particle_cherryfairy",
+    "categorie": "UC_PARTICULE",
+    "nom": "Fée cerise",
+    "prix": 600,
+    "valeur": "particleeffects.cherryfairy",
+    "monnaie": "GEMMES",
+    "icone": "pink_petals"
+  },
+  {
+    "id": "uc_mounts_druggedhorse",
+    "categorie": "UC_MONTURE",
+    "nom": "Cheval dopé",
+    "prix": 850,
+    "valeur": "mounts.druggedhorse",
+    "monnaie": "GEMMES",
+    "icone": "horse_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_glacialsteed",
+    "categorie": "UC_MONTURE",
+    "nom": "Coursier glacial",
+    "prix": 1000,
+    "valeur": "mounts.glacialsteed",
+    "monnaie": "GEMMES",
+    "icone": "horse_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_mountoffire",
+    "categorie": "UC_MONTURE",
+    "nom": "Monture du Feu",
+    "prix": 1100,
+    "valeur": "mounts.mountoffire",
+    "monnaie": "GEMMES",
+    "icone": "blaze_rod"
+  },
+  {
+    "id": "uc_mounts_snake",
+    "categorie": "UC_MONTURE",
+    "nom": "Serpent",
+    "prix": 850,
+    "valeur": "mounts.snake",
+    "monnaie": "GEMMES",
+    "icone": "silverfish_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_moltensnake",
+    "categorie": "UC_MONTURE",
+    "nom": "Serpent Fondu",
+    "prix": 850,
+    "valeur": "mounts.moltensnake",
+    "monnaie": "GEMMES",
+    "icone": "strider_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_slimesnake",
+    "categorie": "UC_MONTURE",
+    "nom": "Serpent visqueux",
+    "prix": 850,
+    "valeur": "mounts.slimesnake",
+    "monnaie": "GEMMES",
+    "icone": "slime_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_mountofwater",
+    "categorie": "UC_MONTURE",
+    "nom": "Monture de l'Eau",
+    "prix": 850,
+    "valeur": "mounts.mountofwater",
+    "monnaie": "GEMMES",
+    "icone": "heart_of_the_sea"
+  },
+  {
+    "id": "uc_mounts_ecologisthorse",
+    "categorie": "UC_MONTURE",
+    "nom": "Cheval écolo",
+    "prix": 850,
+    "valeur": "mounts.ecologisthorse",
+    "monnaie": "GEMMES",
+    "icone": "horse_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_infernalhorror",
+    "categorie": "UC_MONTURE",
+    "nom": "Horreur infernale",
+    "prix": 1300,
+    "valeur": "mounts.infernalhorror",
+    "monnaie": "GEMMES",
+    "icone": "nether_star"
+  },
+  {
+    "id": "uc_mounts_horse",
+    "categorie": "UC_MONTURE",
+    "nom": "Cheval",
+    "prix": 500,
+    "valeur": "mounts.horse",
+    "monnaie": "GEMMES",
+    "icone": "horse_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_donkey",
+    "categorie": "UC_MONTURE",
+    "nom": "Ane",
+    "prix": 450,
+    "valeur": "mounts.donkey",
+    "monnaie": "GEMMES",
+    "icone": "donkey_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_mule",
+    "categorie": "UC_MONTURE",
+    "nom": "Mule",
+    "prix": 450,
+    "valeur": "mounts.mule",
+    "monnaie": "GEMMES",
+    "icone": "mule_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_pig",
+    "categorie": "UC_MONTURE",
+    "nom": "Cochon",
+    "prix": 450,
+    "valeur": "mounts.pig",
+    "monnaie": "GEMMES",
+    "icone": "pig_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_nyansheep",
+    "categorie": "UC_MONTURE",
+    "nom": "Mouton Nyan",
+    "prix": 1100,
+    "valeur": "mounts.nyansheep",
+    "monnaie": "GEMMES",
+    "icone": "sheep_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_dragon",
+    "categorie": "UC_MONTURE",
+    "nom": "Dragon",
+    "prix": 2200,
+    "valeur": "mounts.dragon",
+    "monnaie": "GEMMES",
+    "icone": "dragon_head"
+  },
+  {
+    "id": "uc_mounts_strider",
+    "categorie": "UC_MONTURE",
+    "nom": "Arpenteur",
+    "prix": 850,
+    "valeur": "mounts.strider",
+    "monnaie": "GEMMES",
+    "icone": "strider_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_camel",
+    "categorie": "UC_MONTURE",
+    "nom": "Chameau",
+    "prix": 600,
+    "valeur": "mounts.camel",
+    "monnaie": "GEMMES",
+    "icone": "camel_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_slime",
+    "categorie": "UC_MONTURE",
+    "nom": "Slime",
+    "prix": 850,
+    "valeur": "mounts.slime",
+    "monnaie": "GEMMES",
+    "icone": "slime_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_spider",
+    "categorie": "UC_MONTURE",
+    "nom": "Araignée",
+    "prix": 850,
+    "valeur": "mounts.spider",
+    "monnaie": "GEMMES",
+    "icone": "spider_spawn_egg"
+  },
+  {
+    "id": "uc_mounts_hypecart",
+    "categorie": "UC_MONTURE",
+    "nom": "HypeCart",
+    "prix": 1100,
+    "valeur": "mounts.hypecart",
+    "monnaie": "GEMMES",
+    "icone": "minecart"
+  },
+  {
+    "id": "uc_hats_astronaut",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Astronaute",
+    "prix": 350,
+    "valeur": "hats.astronaut",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_scared",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Effrayé",
+    "prix": 180,
+    "valeur": "hats.scared",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_angel",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Chapeau Ange (Légende)",
+    "prix": 0,
+    "valeur": "hats.angel",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_embarassed",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Embarassé",
+    "prix": 180,
+    "valeur": "hats.embarassed",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_kissy",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Kissy",
+    "prix": 180,
+    "valeur": "hats.kissy",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_sad",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Triste",
+    "prix": 180,
+    "valeur": "hats.sad",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_cool",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Cool",
+    "prix": 180,
+    "valeur": "hats.cool",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_surprised",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Surprise",
+    "prix": 180,
+    "valeur": "hats.surprised",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_dead",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Mort",
+    "prix": 180,
+    "valeur": "hats.dead",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_crying",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Lpleurs",
+    "prix": 180,
+    "valeur": "hats.crying",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_bigsmile",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Grand sourire",
+    "prix": 180,
+    "valeur": "hats.bigsmile",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_wink",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Clin d'œil",
+    "prix": 180,
+    "valeur": "hats.wink",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_derp",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Derp",
+    "prix": 180,
+    "valeur": "hats.derp",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_smile",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Sourire",
+    "prix": 180,
+    "valeur": "hats.smile",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_iron",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Fer",
+    "prix": 180,
+    "valeur": "hats.iron",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_gold",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Chapeau Or (VIP)",
+    "prix": 0,
+    "valeur": "hats.gold",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_diamond",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Diamant",
+    "prix": 320,
+    "valeur": "hats.diamond",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_piston",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Piston",
+    "prix": 180,
+    "valeur": "hats.piston",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_commandblock",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Bloc de commandes",
+    "prix": 400,
+    "valeur": "hats.commandblock",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_music",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Musique",
+    "prix": 180,
+    "valeur": "hats.music",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_squid",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Poulpe",
+    "prix": 180,
+    "valeur": "hats.squid",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_glowsquid",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Poulpe Brillant",
+    "prix": 180,
+    "valeur": "hats.glowsquid",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_chicken",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Poulet",
+    "prix": 180,
+    "valeur": "hats.chicken",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_pig",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Cochon",
+    "prix": 180,
+    "valeur": "hats.pig",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_cow",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Vache",
+    "prix": 180,
+    "valeur": "hats.cow",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_mooshroom",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Champimeuh",
+    "prix": 180,
+    "valeur": "hats.mooshroom",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_brownmooshroom",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Champimeuh marron",
+    "prix": 180,
+    "valeur": "hats.brownmooshroom",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_moobloom",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Moobloom",
+    "prix": 180,
+    "valeur": "hats.moobloom",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_sheep",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Mouton",
+    "prix": 180,
+    "valeur": "hats.sheep",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_chestnuthorse",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Cheval alezan",
+    "prix": 180,
+    "valeur": "hats.chestnuthorse",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_golem",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Golem (Tower Defense)",
+    "prix": 15000,
+    "valeur": "hats.golem",
+    "monnaie": "PIECES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_coppergolem",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Golem de cuivre",
+    "prix": 180,
+    "valeur": "hats.coppergolem",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_enderman",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Enderman",
+    "prix": 180,
+    "valeur": "hats.enderman",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_endermanking",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Enderman King",
+    "prix": 400,
+    "valeur": "hats.endermanking",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_slime",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Slime",
+    "prix": 180,
+    "valeur": "hats.slime",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_creeper",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Creeper",
+    "prix": 180,
+    "valeur": "hats.creeper",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_skeleton",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Squelette",
+    "prix": 180,
+    "valeur": "hats.skeleton",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_zombie",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Zombie",
+    "prix": 180,
+    "valeur": "hats.zombie",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_drowned",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Noyé",
+    "prix": 180,
+    "valeur": "hats.drowned",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_blaze",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Blaze",
+    "prix": 180,
+    "valeur": "hats.blaze",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_strider",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Arpenteur",
+    "prix": 180,
+    "valeur": "hats.strider",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_witherskeleton",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Crâne du Roi-Liche (Squelette Wither)",
+    "prix": 1500,
+    "valeur": "hats.witherskeleton",
+    "monnaie": "AMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_ghast",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Ghast",
+    "prix": 300,
+    "valeur": "hats.ghast",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_warden",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Warden",
+    "prix": 350,
+    "valeur": "hats.warden",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_witch",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Sorcière",
+    "prix": 180,
+    "valeur": "hats.witch",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_guardian",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Gardien",
+    "prix": 180,
+    "valeur": "hats.guardian",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_shepherdvillager",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Villageois de bergers",
+    "prix": 180,
+    "valeur": "hats.shepherdvillager",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_fletchervillager",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Villageois Bergers",
+    "prix": 180,
+    "valeur": "hats.fletchervillager",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_librarianvillager",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Villageois bibliothécaires",
+    "prix": 180,
+    "valeur": "hats.librarianvillager",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_bee",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Abeille",
+    "prix": 180,
+    "valeur": "hats.bee",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_fox",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Renard",
+    "prix": 180,
+    "valeur": "hats.fox",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_snowfox",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Renard de neige",
+    "prix": 180,
+    "valeur": "hats.snowfox",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_ocelot",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Ocelot",
+    "prix": 180,
+    "valeur": "hats.ocelot",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_frog",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Grenouille",
+    "prix": 180,
+    "valeur": "hats.frog",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_axolotlpink",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Axolot rose",
+    "prix": 180,
+    "valeur": "hats.axolotlpink",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_axolotlblue",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Axolotl bleu",
+    "prix": 180,
+    "valeur": "hats.axolotlblue",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_turtle",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Tortue",
+    "prix": 180,
+    "valeur": "hats.turtle",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_clownfish",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Poisson clown",
+    "prix": 180,
+    "valeur": "hats.clownfish",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_blackcat",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Chat Noir",
+    "prix": 180,
+    "valeur": "hats.blackcat",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_allay",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Allay",
+    "prix": 180,
+    "valeur": "hats.allay",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_bat",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Chauves-Souris",
+    "prix": 180,
+    "valeur": "hats.bat",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_glare",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Glare",
+    "prix": 180,
+    "valeur": "hats.glare",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_rana",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Rana",
+    "prix": 180,
+    "valeur": "hats.rana",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_mario",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Mario",
+    "prix": 350,
+    "valeur": "hats.mario",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_luigi",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Luigi",
+    "prix": 350,
+    "valeur": "hats.luigi",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_batman",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Batman",
+    "prix": 350,
+    "valeur": "hats.batman",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_chest",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coffre",
+    "prix": 180,
+    "valeur": "hats.chest",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_skull",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Crâne",
+    "prix": 180,
+    "valeur": "hats.skull",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_bedrock",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Bedrock",
+    "prix": 450,
+    "valeur": "hats.bedrock",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_redcrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier rouge",
+    "prix": 180,
+    "valeur": "hats.redcrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_bluecrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier bleu",
+    "prix": 180,
+    "valeur": "hats.bluecrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_greencrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier vert",
+    "prix": 180,
+    "valeur": "hats.greencrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_cyancrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier cyan",
+    "prix": 180,
+    "valeur": "hats.cyancrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_limecrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier lime",
+    "prix": 180,
+    "valeur": "hats.limecrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_yellowcrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier jaune",
+    "prix": 180,
+    "valeur": "hats.yellowcrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_orangecrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier orange",
+    "prix": 180,
+    "valeur": "hats.orangecrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_purplecrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier violet",
+    "prix": 180,
+    "valeur": "hats.purplecrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_blackcrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier noir",
+    "prix": 180,
+    "valeur": "hats.blackcrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_whitecrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier blanc",
+    "prix": 180,
+    "valeur": "hats.whitecrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_pinkcrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier rose",
+    "prix": 180,
+    "valeur": "hats.pinkcrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_browncrewmate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Coéquipier marron",
+    "prix": 180,
+    "valeur": "hats.browncrewmate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_frogprince",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Prince grenouille",
+    "prix": 180,
+    "valeur": "hats.frogprince",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_notch",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Notch",
+    "prix": 400,
+    "valeur": "hats.notch",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_kitsunemask",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Masque Kitsune",
+    "prix": 350,
+    "valeur": "hats.kitsunemask",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_goblin",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Goblin",
+    "prix": 180,
+    "valeur": "hats.goblin",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_unicorn",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Licorne",
+    "prix": 400,
+    "valeur": "hats.unicorn",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_ogre",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Ogre",
+    "prix": 180,
+    "valeur": "hats.ogre",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_greendragon",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Dragon vert",
+    "prix": 450,
+    "valeur": "hats.greendragon",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_gigachad",
+    "categorie": "UC_CHAPEAU",
+    "nom": "GigaChad",
+    "prix": 450,
+    "valeur": "hats.gigachad",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_anubis",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Anubis",
+    "prix": 400,
+    "valeur": "hats.anubis",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_bread",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Pain",
+    "prix": 180,
+    "valeur": "hats.bread",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_cheese",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Fromage",
+    "prix": 180,
+    "valeur": "hats.cheese",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_pancakes",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Crêpes",
+    "prix": 180,
+    "valeur": "hats.pancakes",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_cake",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Gâteau",
+    "prix": 180,
+    "valeur": "hats.cake",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_cookie",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Cookie",
+    "prix": 180,
+    "valeur": "hats.cookie",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_chocolate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Chocolat",
+    "prix": 180,
+    "valeur": "hats.chocolate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_whitechocolate",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Chocolat blanc",
+    "prix": 180,
+    "valeur": "hats.whitechocolate",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_apple",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Pomme",
+    "prix": 180,
+    "valeur": "hats.apple",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_melon",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Melon",
+    "prix": 180,
+    "valeur": "hats.melon",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_strawberry",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Fraise",
+    "prix": 180,
+    "valeur": "hats.strawberry",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_coconut",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Noix de coco",
+    "prix": 180,
+    "valeur": "hats.coconut",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_taco",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Taco",
+    "prix": 180,
+    "valeur": "hats.taco",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_bacon",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Bacon",
+    "prix": 180,
+    "valeur": "hats.bacon",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_fries",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Frites",
+    "prix": 180,
+    "valeur": "hats.fries",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_hamburger",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Hamburger",
+    "prix": 180,
+    "valeur": "hats.hamburger",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_popcorn",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Popcorn",
+    "prix": 180,
+    "valeur": "hats.popcorn",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_whitedonut",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Beignet blanc",
+    "prix": 180,
+    "valeur": "hats.whitedonut",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_pinkdonut",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Beignet rose",
+    "prix": 180,
+    "valeur": "hats.pinkdonut",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_chocolatedonut",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Beignet au chocolat",
+    "prix": 180,
+    "valeur": "hats.chocolatedonut",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_pie",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Tarte",
+    "prix": 180,
+    "valeur": "hats.pie",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_a",
+    "categorie": "UC_CHAPEAU",
+    "nom": "A",
+    "prix": 60,
+    "valeur": "hats.a",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_b",
+    "categorie": "UC_CHAPEAU",
+    "nom": "B",
+    "prix": 60,
+    "valeur": "hats.b",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_c",
+    "categorie": "UC_CHAPEAU",
+    "nom": "C",
+    "prix": 60,
+    "valeur": "hats.c",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_d",
+    "categorie": "UC_CHAPEAU",
+    "nom": "D",
+    "prix": 60,
+    "valeur": "hats.d",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_e",
+    "categorie": "UC_CHAPEAU",
+    "nom": "E",
+    "prix": 60,
+    "valeur": "hats.e",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_f",
+    "categorie": "UC_CHAPEAU",
+    "nom": "F",
+    "prix": 60,
+    "valeur": "hats.f",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_g",
+    "categorie": "UC_CHAPEAU",
+    "nom": "G",
+    "prix": 60,
+    "valeur": "hats.g",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_h",
+    "categorie": "UC_CHAPEAU",
+    "nom": "H",
+    "prix": 60,
+    "valeur": "hats.h",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_i",
+    "categorie": "UC_CHAPEAU",
+    "nom": "I",
+    "prix": 60,
+    "valeur": "hats.i",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_j",
+    "categorie": "UC_CHAPEAU",
+    "nom": "J",
+    "prix": 60,
+    "valeur": "hats.j",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_k",
+    "categorie": "UC_CHAPEAU",
+    "nom": "K",
+    "prix": 60,
+    "valeur": "hats.k",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_l",
+    "categorie": "UC_CHAPEAU",
+    "nom": "L",
+    "prix": 60,
+    "valeur": "hats.l",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_m",
+    "categorie": "UC_CHAPEAU",
+    "nom": "M",
+    "prix": 60,
+    "valeur": "hats.m",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_n",
+    "categorie": "UC_CHAPEAU",
+    "nom": "N",
+    "prix": 60,
+    "valeur": "hats.n",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_o",
+    "categorie": "UC_CHAPEAU",
+    "nom": "O",
+    "prix": 60,
+    "valeur": "hats.o",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_p",
+    "categorie": "UC_CHAPEAU",
+    "nom": "P",
+    "prix": 60,
+    "valeur": "hats.p",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_q",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Q",
+    "prix": 60,
+    "valeur": "hats.q",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_r",
+    "categorie": "UC_CHAPEAU",
+    "nom": "R",
+    "prix": 60,
+    "valeur": "hats.r",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_s",
+    "categorie": "UC_CHAPEAU",
+    "nom": "S",
+    "prix": 60,
+    "valeur": "hats.s",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_t",
+    "categorie": "UC_CHAPEAU",
+    "nom": "T",
+    "prix": 60,
+    "valeur": "hats.t",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_u",
+    "categorie": "UC_CHAPEAU",
+    "nom": "U",
+    "prix": 60,
+    "valeur": "hats.u",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_v",
+    "categorie": "UC_CHAPEAU",
+    "nom": "V",
+    "prix": 60,
+    "valeur": "hats.v",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_w",
+    "categorie": "UC_CHAPEAU",
+    "nom": "W",
+    "prix": 60,
+    "valeur": "hats.w",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_x",
+    "categorie": "UC_CHAPEAU",
+    "nom": "X",
+    "prix": 60,
+    "valeur": "hats.x",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_y",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Y",
+    "prix": 60,
+    "valeur": "hats.y",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_hats_z",
+    "categorie": "UC_CHAPEAU",
+    "nom": "Z",
+    "prix": 60,
+    "valeur": "hats.z",
+    "monnaie": "GEMMES",
+    "icone": "player_head"
+  },
+  {
+    "id": "uc_emotes_cry",
+    "categorie": "UC_EMOTE",
+    "nom": "Pleure",
+    "prix": 250,
+    "valeur": "emotes.cry",
+    "monnaie": "GEMMES",
+    "icone": "water_bucket"
+  },
+  {
+    "id": "uc_emotes_angry",
+    "categorie": "UC_EMOTE",
+    "nom": "Furieux",
+    "prix": 250,
+    "valeur": "emotes.angry",
+    "monnaie": "GEMMES",
+    "icone": "blaze_powder"
+  },
+  {
+    "id": "uc_emotes_happy",
+    "categorie": "UC_EMOTE",
+    "nom": "Heureux",
+    "prix": 250,
+    "valeur": "emotes.happy",
+    "monnaie": "GEMMES",
+    "icone": "sunflower"
+  },
+  {
+    "id": "uc_emotes_cheeky",
+    "categorie": "UC_EMOTE",
+    "nom": "Effrontée",
+    "prix": 250,
+    "valeur": "emotes.cheeky",
+    "monnaie": "GEMMES",
+    "icone": "cookie"
+  },
+  {
+    "id": "uc_emotes_dealwithit",
+    "categorie": "UC_EMOTE",
+    "nom": "Faites avec",
+    "prix": 250,
+    "valeur": "emotes.dealwithit",
+    "monnaie": "GEMMES",
+    "icone": "black_stained_glass"
+  },
+  {
+    "id": "uc_emotes_cool",
+    "categorie": "UC_EMOTE",
+    "nom": "Cool",
+    "prix": 250,
+    "valeur": "emotes.cool",
+    "monnaie": "GEMMES",
+    "icone": "ice"
+  },
+  {
+    "id": "uc_emotes_surprised",
+    "categorie": "UC_EMOTE",
+    "nom": "Surprise",
+    "prix": 250,
+    "valeur": "emotes.surprised",
+    "monnaie": "GEMMES",
+    "icone": "firework_rocket"
+  },
+  {
+    "id": "uc_emotes_wink",
+    "categorie": "UC_EMOTE",
+    "nom": "Clin d'œil",
+    "prix": 250,
+    "valeur": "emotes.wink",
+    "monnaie": "GEMMES",
+    "icone": "ender_eye"
+  },
+  {
+    "id": "uc_emotes_raiseeyebrows",
+    "categorie": "UC_EMOTE",
+    "nom": "Lever les sourcils",
+    "prix": 250,
+    "valeur": "emotes.raiseeyebrows",
+    "monnaie": "GEMMES",
+    "icone": "feather"
+  },
+  {
+    "id": "uc_projectile_rainbow",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Arc-en-Ciel",
+    "prix": 400,
+    "valeur": "projectileeffects.rainbow",
+    "monnaie": "GEMMES",
+    "icone": "pink_dye"
+  },
+  {
+    "id": "uc_projectile_redstonehelix",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Hélice de redstone",
+    "prix": 450,
+    "valeur": "projectileeffects.redstonehelix",
+    "monnaie": "GEMMES",
+    "icone": "redstone"
+  },
+  {
+    "id": "uc_projectile_flamehelix",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Hélice de flamme",
+    "prix": 450,
+    "valeur": "projectileeffects.flamehelix",
+    "monnaie": "GEMMES",
+    "icone": "blaze_powder"
+  },
+  {
+    "id": "uc_projectile_cursedhelix",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Hélice maudite",
+    "prix": 450,
+    "valeur": "projectileeffects.cursedhelix",
+    "monnaie": "GEMMES",
+    "icone": "wither_rose"
+  },
+  {
+    "id": "uc_projectile_soulfirehelix",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Hélice de feu de l'âme",
+    "prix": 450,
+    "valeur": "projectileeffects.soulfirehelix",
+    "monnaie": "GEMMES",
+    "icone": "soul_campfire"
+  },
+  {
+    "id": "uc_projectile_spark",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Étincelle",
+    "prix": 280,
+    "valeur": "projectileeffects.spark",
+    "monnaie": "GEMMES",
+    "icone": "firework_star"
+  },
+  {
+    "id": "uc_projectile_redstone",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Redstone",
+    "prix": 280,
+    "valeur": "projectileeffects.redstone",
+    "monnaie": "GEMMES",
+    "icone": "redstone_block"
+  },
+  {
+    "id": "uc_projectile_flame",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Flamme",
+    "prix": 280,
+    "valeur": "projectileeffects.flame",
+    "monnaie": "GEMMES",
+    "icone": "fire_charge"
+  },
+  {
+    "id": "uc_projectile_water",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Eau",
+    "prix": 280,
+    "valeur": "projectileeffects.water",
+    "monnaie": "GEMMES",
+    "icone": "water_bucket"
+  },
+  {
+    "id": "uc_projectile_witch",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Sorcière",
+    "prix": 280,
+    "valeur": "projectileeffects.witch",
+    "monnaie": "GEMMES",
+    "icone": "brewing_stand"
+  },
+  {
+    "id": "uc_projectile_emerald",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Émeraude",
+    "prix": 280,
+    "valeur": "projectileeffects.emerald",
+    "monnaie": "GEMMES",
+    "icone": "emerald"
+  },
+  {
+    "id": "uc_projectile_note",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Note",
+    "prix": 280,
+    "valeur": "projectileeffects.note",
+    "monnaie": "GEMMES",
+    "icone": "note_block"
+  },
+  {
+    "id": "uc_projectile_lava",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Lave",
+    "prix": 280,
+    "valeur": "projectileeffects.lava",
+    "monnaie": "GEMMES",
+    "icone": "lava_bucket"
+  },
+  {
+    "id": "uc_projectile_snow",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Neige",
+    "prix": 280,
+    "valeur": "projectileeffects.snow",
+    "monnaie": "GEMMES",
+    "icone": "snowball"
+  },
+  {
+    "id": "uc_projectile_slime",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Slime",
+    "prix": 280,
+    "valeur": "projectileeffects.slime",
+    "monnaie": "GEMMES",
+    "icone": "slime_ball"
+  },
+  {
+    "id": "uc_projectile_crit",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Crit",
+    "prix": 280,
+    "valeur": "projectileeffects.crit",
+    "monnaie": "GEMMES",
+    "icone": "iron_sword"
+  },
+  {
+    "id": "uc_projectile_magiccrit",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Critique magique",
+    "prix": 280,
+    "valeur": "projectileeffects.magiccrit",
+    "monnaie": "GEMMES",
+    "icone": "diamond_sword"
+  },
+  {
+    "id": "uc_projectile_explosion",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Explosion",
+    "prix": 280,
+    "valeur": "projectileeffects.explosion",
+    "monnaie": "GEMMES",
+    "icone": "gunpowder"
+  },
+  {
+    "id": "uc_projectile_cloud",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Nuage",
+    "prix": 280,
+    "valeur": "projectileeffects.cloud",
+    "monnaie": "GEMMES",
+    "icone": "white_wool"
+  },
+  {
+    "id": "uc_projectile_smoke",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Fumée",
+    "prix": 280,
+    "valeur": "projectileeffects.smoke",
+    "monnaie": "GEMMES",
+    "icone": "campfire"
+  },
+  {
+    "id": "uc_projectile_portal",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Portail",
+    "prix": 280,
+    "valeur": "projectileeffects.portal",
+    "monnaie": "GEMMES",
+    "icone": "obsidian"
+  },
+  {
+    "id": "uc_projectile_dragonbreath",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Souffle du Dragon",
+    "prix": 280,
+    "valeur": "projectileeffects.dragonbreath",
+    "monnaie": "GEMMES",
+    "icone": "dragon_breath"
+  },
+  {
+    "id": "uc_projectile_squidink",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Encre de poulpe",
+    "prix": 280,
+    "valeur": "projectileeffects.squidink",
+    "monnaie": "GEMMES",
+    "icone": "ink_sac"
+  },
+  {
+    "id": "uc_projectile_soulfireflame",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Feu de l'Âme",
+    "prix": 280,
+    "valeur": "projectileeffects.soulfireflame",
+    "monnaie": "GEMMES",
+    "icone": "soul_lantern"
+  },
+  {
+    "id": "uc_projectile_snowflake",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Flocon de neige",
+    "prix": 280,
+    "valeur": "projectileeffects.snowflake",
+    "monnaie": "GEMMES",
+    "icone": "ice"
+  },
+  {
+    "id": "uc_projectile_glowsquid",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Poulpe Lumineux",
+    "prix": 280,
+    "valeur": "projectileeffects.glowsquid",
+    "monnaie": "GEMMES",
+    "icone": "glow_squid_spawn_egg"
+  },
+  {
+    "id": "uc_projectile_glowsquidink",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Encre de Poulpe Lumineux",
+    "prix": 280,
+    "valeur": "projectileeffects.glowsquidink",
+    "monnaie": "GEMMES",
+    "icone": "glow_ink_sac"
+  },
+  {
+    "id": "uc_projectile_scrape",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Rayer",
+    "prix": 280,
+    "valeur": "projectileeffects.scrape",
+    "monnaie": "GEMMES",
+    "icone": "copper_block"
+  },
+  {
+    "id": "uc_projectile_waxoff",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Wax désactivé",
+    "prix": 280,
+    "valeur": "projectileeffects.waxoff",
+    "monnaie": "GEMMES",
+    "icone": "copper_ingot"
+  },
+  {
+    "id": "uc_projectile_waxon",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Wax activé",
+    "prix": 280,
+    "valeur": "projectileeffects.waxon",
+    "monnaie": "GEMMES",
+    "icone": "honeycomb"
+  },
+  {
+    "id": "uc_projectile_sculksoul",
+    "categorie": "UC_PROJECTILE",
+    "nom": "Âme du Sculk",
+    "prix": 280,
+    "valeur": "projectileeffects.sculksoul",
+    "monnaie": "GEMMES",
+    "icone": "sculk_catalyst"
+  },
+  {
+    "id": "uc_death_explosion",
+    "categorie": "UC_MORT",
+    "nom": "Explosion",
+    "prix": 380,
+    "valeur": "deatheffects.explosion",
+    "monnaie": "GEMMES",
+    "icone": "gunpowder"
+  },
+  {
+    "id": "uc_death_firework",
+    "categorie": "UC_MORT",
+    "nom": "Fusée d'artifice",
+    "prix": 450,
+    "valeur": "deatheffects.firework",
+    "monnaie": "GEMMES",
+    "icone": "firework_rocket"
+  },
+  {
+    "id": "uc_death_lightning",
+    "categorie": "UC_MORT",
+    "nom": "Foudre",
+    "prix": 500,
+    "valeur": "deatheffects.lightning",
+    "monnaie": "GEMMES",
+    "icone": "lightning_rod"
+  },
+  {
+    "id": "uc_death_puffofsmoke",
+    "categorie": "UC_MORT",
+    "nom": "Bouffée de fumée",
+    "prix": 380,
+    "valeur": "deatheffects.puffofsmoke",
+    "monnaie": "GEMMES",
+    "icone": "gray_dye"
+  },
+  {
+    "id": "uc_death_flames",
+    "categorie": "UC_MORT",
+    "nom": "Flammes",
+    "prix": 380,
+    "valeur": "deatheffects.flames",
+    "monnaie": "GEMMES",
+    "icone": "fire_charge"
+  },
+  {
+    "id": "uc_suits_rave",
+    "categorie": "UC_COSTUME",
+    "nom": "Costume Rave",
+    "prix": 900,
+    "valeur": "suits.rave.*",
+    "monnaie": "GEMMES",
+    "icone": "jukebox"
+  },
+  {
+    "id": "uc_suits_astronaut",
+    "categorie": "UC_COSTUME",
+    "nom": "Costume d'Astronaute",
+    "prix": 1100,
+    "valeur": "suits.astronaut.*",
+    "monnaie": "GEMMES",
+    "icone": "glass"
+  },
+  {
+    "id": "uc_suits_diamond",
+    "categorie": "UC_COSTUME",
+    "nom": "Costume en Diamant",
+    "prix": 1000,
+    "valeur": "suits.diamond.*",
+    "monnaie": "GEMMES",
+    "icone": "diamond_block"
+  },
+  {
+    "id": "uc_suits_frozen",
+    "categorie": "UC_COSTUME",
+    "nom": "Costume glacé",
+    "prix": 900,
+    "valeur": "suits.frozen.*",
+    "monnaie": "GEMMES",
+    "icone": "blue_ice"
+  },
+  {
+    "id": "uc_suits_cursed",
+    "categorie": "UC_COSTUME",
+    "nom": "Costume maudit",
+    "prix": 1100,
+    "valeur": "suits.cursed.*",
+    "monnaie": "GEMMES",
+    "icone": "soul_lantern"
+  },
+  {
+    "id": "uc_suits_slime",
+    "categorie": "UC_COSTUME",
+    "nom": "Costume visqueux",
+    "prix": 900,
+    "valeur": "suits.slime.*",
+    "monnaie": "GEMMES",
+    "icone": "slime_spawn_egg"
+  },
+  {
+    "id": "fete_noel",
+    "categorie": "FETE",
+    "nom": "Pack Noël · 16 cosmétiques",
+    "prix": 4900,
+    "valeur": "pets.christmaself,pets.snowman,gadgets.christmastree,gadgets.snowball,particleeffects.santahat,particleeffects.crushedcandycane,particleeffects.snowcloud,mounts.rudolph,hats.santa,hats.snowman,hats.present,hats.elf,hats.candycane,suits.santa.*,projectileeffects.christmas,deatheffects.itemexplode",
+    "monnaie": "GEMMES",
+    "icone": "snow_block"
+  },
+  {
+    "id": "fete_halloween",
+    "categorie": "FETE",
+    "nom": "Pack Halloween · 9 cosmétiques",
+    "prix": 2050,
+    "valeur": "pets.pumpling,gadgets.ghostparty,hats.jackolantern,hats.scaryclown,hats.ghost,hats.carvedpumpkin,emotes.scarycandle,emotes.glowingpumpkin,mounts.walkingdead",
+    "monnaie": "GEMMES",
+    "icone": "jack_o_lantern"
+  },
+  {
+    "id": "fete_paques",
+    "categorie": "FETE",
+    "nom": "Pack Pâques · 2 cosmétiques",
+    "prix": 550,
+    "valeur": "pets.easterbunny,particleeffects.springfootprints",
+    "monnaie": "GEMMES",
+    "icone": "egg"
+  },
+  {
+    "id": "fete_valentin",
+    "categorie": "FETE",
+    "nom": "Pack Saint-Valentin · 4 cosmétiques",
+    "prix": 950,
+    "valeur": "particleeffects.inlove,emotes.love,emotes.lovestruckallay,projectileeffects.love",
+    "monnaie": "GEMMES",
+    "icone": "poppy"
+  }
+]

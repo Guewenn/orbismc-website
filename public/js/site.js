@@ -1,25 +1,61 @@
-// Copier l'adresse du serveur et fermer les menus déroulants. Rien d'autre : aucun élément n'est masqué ni animé par script.
+// Copier l'adresse du serveur, toast de confirmation et barre flottante
+function afficherToastCopie() {
+  const toast = document.getElementById('toastCopie');
+  if (!toast) return;
+  toast.classList.add('visible');
+  clearTimeout(toast._timer);
+  toast._timer = setTimeout(() => {
+    toast.classList.remove('visible');
+  }, 2600);
+}
+
+const etatsCopie = new WeakMap();
 document.addEventListener('click', (e) => {
   for (const menu of document.querySelectorAll('details.menu-jeux[open], details.burger[open]')) {
     if (!menu.contains(e.target)) menu.open = false;
   }
-  const bouton = e.target.closest('[data-copier]');
+  const bouton = e.target.closest('[data-copier], [data-copier-texte]');
   if (!bouton) return;
-  const code = bouton.parentElement.querySelector('code');
-  if (!code) return;
-  const avant = bouton.textContent;
+  const texteACopier = bouton.dataset.copierTexte
+    || (bouton.parentElement && bouton.parentElement.querySelector('code') ? bouton.parentElement.querySelector('code').textContent.trim() : 'play.mcorbis.com');
+  const etat = etatsCopie.get(bouton) || { enfants: [...bouton.childNodes] };
+  etatsCopie.set(bouton, etat);
   const fini = (texte) => {
+    clearTimeout(etat.minuterie);
     bouton.textContent = texte;
-    setTimeout(() => { bouton.textContent = avant; }, 1600);
+    etat.minuterie = setTimeout(() => { bouton.replaceChildren(...etat.enfants); }, 1600);
   };
   if (navigator.clipboard && window.isSecureContext) {
-    navigator.clipboard.writeText(code.textContent.trim()).then(() => fini('Copiée !'), () => fini('Sélectionne-la'));
+    navigator.clipboard.writeText(texteACopier).then(() => {
+      fini('Copiée !');
+      afficherToastCopie();
+    }, () => fini('Sélectionne-la'));
   } else {
-    // Hors https, le presse-papiers est refusé : on sélectionne l'adresse pour un Ctrl+C.
-    getSelection().selectAllChildren(code);
+    const code = bouton.parentElement ? bouton.parentElement.querySelector('code') : null;
+    if (code) getSelection().selectAllChildren(code);
     fini('Ctrl+C');
+    afficherToastCopie();
   }
 });
+
+// Apparition fluide de la barre de jeu rapide lors du défilement
+const barreRapide = document.getElementById('barreRapide');
+if (barreRapide) {
+  let deroulantActif = false;
+  window.addEventListener('scroll', () => {
+    if (!deroulantActif) {
+      window.requestAnimationFrame(() => {
+        if (window.scrollY > 380) {
+          barreRapide.classList.add('visible');
+        } else {
+          barreRapide.classList.remove('visible');
+        }
+        deroulantActif = false;
+      });
+      deroulantActif = true;
+    }
+  }, { passive: true });
+}
 
 document.addEventListener('keydown', (e) => {
   if (e.key !== 'Escape') return;
@@ -35,20 +71,25 @@ document.querySelectorAll('.faq details').forEach((details) => {
   summary.addEventListener('click', (e) => {
     e.preventDefault();
     if (animation) animation.cancel();
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      details.open = !details.open;
+      details.classList.remove('faq-animee');
+      return;
+    }
 
     if (details.open) {
       // Repliage animé
       const startHeight = details.offsetHeight;
       const endHeight = summary.offsetHeight;
-      details.style.overflow = 'hidden';
+      details.classList.add('faq-animee');
       animation = details.animate(
         [{ height: `${startHeight}px`, opacity: 1 }, { height: `${endHeight}px`, opacity: 0.95 }],
         { duration: 250, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
       );
       animation.onfinish = () => {
         details.open = false;
-        details.style.height = '';
-        details.style.overflow = '';
+
+        details.classList.remove('faq-animee');
         animation = null;
       };
     } else {
@@ -56,78 +97,19 @@ document.querySelectorAll('.faq details').forEach((details) => {
       details.open = true;
       const endHeight = details.scrollHeight;
       const startHeight = summary.offsetHeight;
-      details.style.overflow = 'hidden';
+      details.classList.add('faq-animee');
       animation = details.animate(
         [{ height: `${startHeight}px` }, { height: `${endHeight}px` }],
         { duration: 320, easing: 'cubic-bezier(0.16, 1, 0.3, 1)' }
       );
       animation.onfinish = () => {
-        details.style.height = '';
-        details.style.overflow = '';
+
+        details.classList.remove('faq-animee');
         animation = null;
       };
     }
   });
 });
 
-// Changement d'onglet fluide pour les cosmétiques du compte sans rechargement ni saut de page
-document.addEventListener('click', (e) => {
-  const a = e.target.closest('#cosmetiques .onglets-cosm a');
-  if (!a || !a.href) return;
-  e.preventDefault();
-  const url = a.href;
-  fetch(url)
-    .then((r) => r.text())
-    .then((html) => {
-      const doc = new DOMParser().parseFromString(html, 'text/html');
-      const nouveau = doc.querySelector('#cosmetiques');
-      const actuel = document.querySelector('#cosmetiques');
-      if (nouveau && actuel) {
-        actuel.innerHTML = nouveau.innerHTML;
-        history.pushState(null, '', url);
-      } else {
-        window.location.href = url;
-      }
-    })
-    .catch(() => {
-      window.location.href = url;
-    });
-});
-
-// Équiper un cosmétique sans recharger la page
-document.addEventListener('submit', (e) => {
-  const form = e.target.closest('#cosmetiques form[action="/compte/equiper"]');
-  if (!form) return;
-  e.preventDefault();
-  const donnees = new URLSearchParams(new FormData(form));
-  fetch(form.action, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-    body: donnees.toString(),
-  })
-    .then((res) => fetch(res.url || window.location.href))
-    .then((res) => res.text())
-    .then((html) => {
-      const doc = new DOMParser().parseFromString(html, 'text/html');
-      const nouveau = doc.querySelector('#cosmetiques');
-      const actuel = document.querySelector('#cosmetiques');
-      if (nouveau && actuel) actuel.innerHTML = nouveau.innerHTML;
-    })
-    .catch(() => {
-      form.submit();
-    });
-});
-
-window.addEventListener('popstate', () => {
-  if (location.pathname === '/compte' && document.querySelector('#cosmetiques')) {
-    fetch(location.href)
-      .then((r) => r.text())
-      .then((html) => {
-        const doc = new DOMParser().parseFromString(html, 'text/html');
-        const nouveau = doc.querySelector('#cosmetiques');
-        const actuel = document.querySelector('#cosmetiques');
-        if (nouveau && actuel) actuel.innerHTML = nouveau.innerHTML;
-      })
-      .catch(() => {});
-  }
-});
+// Les catégories et formulaires utilisent la navigation native : compatible avec
+// Trusted Types, les redirections du serveur et les boutons précédent / suivant.
